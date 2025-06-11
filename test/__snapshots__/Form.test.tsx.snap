@@ -1,0 +1,3160 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`single fields checkbox field 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-boolean"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <View
+        aria-describedby="root__error root__description root__help"
+        className="relative "
+      >
+        <View
+          className="my-2 flex-row items-center gap-2"
+        >
+          <Pressable
+            accessibilityState={
+              {
+                "checked": false,
+                "disabled": false,
+              }
+            }
+            aria-checked={false}
+            aria-disabled={false}
+            className="peer h-5 w-5 shrink-0 rounded-sm border border-primary focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground"
+            disabled={false}
+            id="root"
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onPress={[Function]}
+            role="checkbox"
+          />
+          <Pressable
+            className="active:opacity-50"
+            hitSlop={6}
+            onPress={[Function]}
+          >
+            <View
+              className="text-sm font-medium peer-disabled:cursor-not-allowed peer-disabled:opacity-70 leading-tight"
+            >
+              <Text />
+            </View>
+          </Pressable>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`single fields checkbox field with label 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-boolean"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <View
+        aria-describedby="root__error root__description root__help"
+        className="relative "
+      >
+        <View
+          className="my-2 flex-row items-center gap-2"
+        >
+          <Pressable
+            accessibilityState={
+              {
+                "checked": false,
+                "disabled": false,
+              }
+            }
+            aria-checked={false}
+            aria-disabled={false}
+            className="peer h-5 w-5 shrink-0 rounded-sm border border-primary focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground"
+            disabled={false}
+            id="root"
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onPress={[Function]}
+            role="checkbox"
+          />
+          <Pressable
+            className="active:opacity-50"
+            hitSlop={6}
+            onPress={[Function]}
+          >
+            <View
+              className="text-sm font-medium peer-disabled:cursor-not-allowed peer-disabled:opacity-70 leading-tight"
+            >
+              <Text>
+                test
+              </Text>
+            </View>
+          </Pressable>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`single fields checkbox field with label and description 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-boolean"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <View
+        aria-describedby="root__error root__description root__help"
+        className="relative "
+      >
+        <View>
+          <View
+            className="text-sm text-muted-foreground"
+            id="root__description"
+          >
+            <Text>
+              test description
+            </Text>
+          </View>
+        </View>
+        <View
+          className="my-2 flex-row items-center gap-2"
+        >
+          <Pressable
+            accessibilityState={
+              {
+                "checked": false,
+                "disabled": false,
+              }
+            }
+            aria-checked={false}
+            aria-disabled={false}
+            className="peer h-5 w-5 shrink-0 rounded-sm border border-primary focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground"
+            disabled={false}
+            id="root"
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onPress={[Function]}
+            role="checkbox"
+          />
+          <Pressable
+            className="active:opacity-50"
+            hitSlop={6}
+            onPress={[Function]}
+          >
+            <View
+              className="text-sm font-medium peer-disabled:cursor-not-allowed peer-disabled:opacity-70 leading-tight"
+            >
+              <Text>
+                test
+              </Text>
+            </View>
+          </Pressable>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`single fields checkbox field with label and rich text description 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-boolean"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <View
+        aria-describedby="root__error root__description root__help"
+        className="relative "
+      >
+        <View>
+          <View
+            className="text-sm text-muted-foreground"
+            id="root__description"
+          >
+            <Text>
+              **test** __description__
+            </Text>
+          </View>
+        </View>
+        <View
+          className="my-2 flex-row items-center gap-2"
+        >
+          <Pressable
+            accessibilityState={
+              {
+                "checked": false,
+                "disabled": false,
+              }
+            }
+            aria-checked={false}
+            aria-disabled={false}
+            className="peer h-5 w-5 shrink-0 rounded-sm border border-primary focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground"
+            disabled={false}
+            id="root"
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onPress={[Function]}
+            role="checkbox"
+          />
+          <Pressable
+            className="active:opacity-50"
+            hitSlop={6}
+            onPress={[Function]}
+          >
+            <View
+              className="text-sm font-medium peer-disabled:cursor-not-allowed peer-disabled:opacity-70 leading-tight"
+            >
+              <Text>
+                test
+              </Text>
+            </View>
+          </Pressable>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`single fields checkboxes field 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-array"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <Text
+        className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+      >
+        An enum list rendered as checkboxes
+      </Text>
+      <View
+        className="flex-col gap-3"
+      >
+        <View
+          className="flex-row items-center gap-2"
+        >
+          <Pressable
+            accessibilityState={
+              {
+                "checked": false,
+                "disabled": false,
+              }
+            }
+            aria-checked={false}
+            aria-describedby="root__error root__description root__help"
+            aria-disabled={false}
+            className="peer h-5 w-5 shrink-0 rounded-sm border border-primary focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground"
+            disabled={false}
+            id="root-0"
+            onPress={[Function]}
+            role="checkbox"
+          />
+          <Pressable
+            className="active:opacity-50"
+            hitSlop={6}
+            onPress={[Function]}
+          >
+            <View
+              className="text-sm font-medium peer-disabled:cursor-not-allowed peer-disabled:opacity-70 leading-tight"
+            >
+              <Text>
+                foo
+              </Text>
+            </View>
+          </Pressable>
+        </View>
+        <View
+          className="flex-row items-center gap-2"
+        >
+          <Pressable
+            accessibilityState={
+              {
+                "checked": false,
+                "disabled": false,
+              }
+            }
+            aria-checked={false}
+            aria-describedby="root__error root__description root__help"
+            aria-disabled={false}
+            className="peer h-5 w-5 shrink-0 rounded-sm border border-primary focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground"
+            disabled={false}
+            id="root-1"
+            onPress={[Function]}
+            role="checkbox"
+          />
+          <Pressable
+            className="active:opacity-50"
+            hitSlop={6}
+            onPress={[Function]}
+          >
+            <View
+              className="text-sm font-medium peer-disabled:cursor-not-allowed peer-disabled:opacity-70 leading-tight"
+            >
+              <Text>
+                bar
+              </Text>
+            </View>
+          </Pressable>
+        </View>
+        <View
+          className="flex-row items-center gap-2"
+        >
+          <Pressable
+            accessibilityState={
+              {
+                "checked": false,
+                "disabled": false,
+              }
+            }
+            aria-checked={false}
+            aria-describedby="root__error root__description root__help"
+            aria-disabled={false}
+            className="peer h-5 w-5 shrink-0 rounded-sm border border-primary focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground"
+            disabled={false}
+            id="root-2"
+            onPress={[Function]}
+            role="checkbox"
+          />
+          <Pressable
+            className="active:opacity-50"
+            hitSlop={6}
+            onPress={[Function]}
+          >
+            <View
+              className="text-sm font-medium peer-disabled:cursor-not-allowed peer-disabled:opacity-70 leading-tight"
+            >
+              <Text>
+                fuzz
+              </Text>
+            </View>
+          </Pressable>
+        </View>
+        <View
+          className="flex-row items-center gap-2"
+        >
+          <Pressable
+            accessibilityState={
+              {
+                "checked": false,
+                "disabled": false,
+              }
+            }
+            aria-checked={false}
+            aria-describedby="root__error root__description root__help"
+            aria-disabled={false}
+            className="peer h-5 w-5 shrink-0 rounded-sm border border-primary focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground"
+            disabled={false}
+            id="root-3"
+            onPress={[Function]}
+            role="checkbox"
+          />
+          <Pressable
+            className="active:opacity-50"
+            hitSlop={6}
+            onPress={[Function]}
+          >
+            <View
+              className="text-sm font-medium peer-disabled:cursor-not-allowed peer-disabled:opacity-70 leading-tight"
+            >
+              <Text>
+                qux
+              </Text>
+            </View>
+          </Pressable>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`single fields field with description 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-object"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <View
+        className="flex-col gap-5"
+      >
+        <View
+          className="flex-row"
+        >
+          <Text
+            className="w-full"
+          >
+            <View
+              className="rjsf-field rjsf-field-string"
+            >
+              <View
+                className="flex-col gap-3"
+              >
+                <Text
+                  className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                >
+                  my-field
+                </Text>
+                <View>
+                  <TextInput
+                    aria-describedby="root_my-field__error root_my-field__description root_my-field__help"
+                    autoFocus={false}
+                    className="w-full flex-row rounded-md border border-input bg-transparent p-3 text-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+                    disabled={false}
+                    id="root_my-field"
+                    name="root_my-field"
+                    onChangeText={[Function]}
+                    placeholder=""
+                    readOnly={false}
+                    required={false}
+                    type="text"
+                    value=""
+                  />
+                </View>
+                <Text
+                  className="text-xs font-medium text-muted-foreground"
+                >
+                  <View>
+                    <View
+                      className="text-sm text-muted-foreground"
+                      id="root_my-field__description"
+                    >
+                      <Text>
+                        some description
+                      </Text>
+                    </View>
+                  </View>
+                </Text>
+              </View>
+            </View>
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`single fields field with description in uiSchema 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-object"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <View
+        className="flex-col gap-5"
+      >
+        <View
+          className="flex-row"
+        >
+          <Text
+            className="w-full"
+          >
+            <View
+              className="rjsf-field rjsf-field-string"
+            >
+              <View
+                className="flex-col gap-3"
+              >
+                <Text
+                  className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                >
+                  my-field
+                </Text>
+                <View>
+                  <TextInput
+                    aria-describedby="root_my-field__error root_my-field__description root_my-field__help"
+                    autoFocus={false}
+                    className="w-full flex-row rounded-md border border-input bg-transparent p-3 text-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+                    disabled={false}
+                    id="root_my-field"
+                    name="root_my-field"
+                    onChangeText={[Function]}
+                    placeholder=""
+                    readOnly={false}
+                    required={false}
+                    type="text"
+                    value=""
+                  />
+                </View>
+                <Text
+                  className="text-xs font-medium text-muted-foreground"
+                >
+                  <View>
+                    <View
+                      className="text-sm text-muted-foreground"
+                      id="root_my-field__description"
+                    >
+                      <Text>
+                        some other description
+                      </Text>
+                    </View>
+                  </View>
+                </Text>
+              </View>
+            </View>
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`single fields field with markdown description 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-object"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <View
+        className="flex-col gap-5"
+      >
+        <View
+          className="flex-row"
+        >
+          <Text
+            className="w-full"
+          >
+            <View
+              className="rjsf-field rjsf-field-string"
+            >
+              <View
+                className="flex-col gap-3"
+              >
+                <Text
+                  className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                >
+                  my-field
+                </Text>
+                <View>
+                  <TextInput
+                    aria-describedby="root_my-field__error root_my-field__description root_my-field__help"
+                    autoFocus={false}
+                    className="w-full flex-row rounded-md border border-input bg-transparent p-3 text-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+                    disabled={false}
+                    id="root_my-field"
+                    name="root_my-field"
+                    onChangeText={[Function]}
+                    placeholder=""
+                    readOnly={false}
+                    required={false}
+                    type="text"
+                    value=""
+                  />
+                </View>
+                <Text
+                  className="text-xs font-medium text-muted-foreground"
+                >
+                  <View>
+                    <View
+                      className="text-sm text-muted-foreground"
+                      id="root_my-field__description"
+                    >
+                      <Text>
+                        some **Rich** description
+                      </Text>
+                    </View>
+                  </View>
+                </Text>
+              </View>
+            </View>
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`single fields field with markdown description in uiSchema 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-object"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <View
+        className="flex-col gap-5"
+      >
+        <View
+          className="flex-row"
+        >
+          <Text
+            className="w-full"
+          >
+            <View
+              className="rjsf-field rjsf-field-string"
+            >
+              <View
+                className="flex-col gap-3"
+              >
+                <Text
+                  className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                >
+                  my-field
+                </Text>
+                <View>
+                  <TextInput
+                    aria-describedby="root_my-field__error root_my-field__description root_my-field__help"
+                    autoFocus={false}
+                    className="w-full flex-row rounded-md border border-input bg-transparent p-3 text-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+                    disabled={false}
+                    id="root_my-field"
+                    name="root_my-field"
+                    onChangeText={[Function]}
+                    placeholder=""
+                    readOnly={false}
+                    required={false}
+                    type="text"
+                    value=""
+                  />
+                </View>
+                <Text
+                  className="text-xs font-medium text-muted-foreground"
+                >
+                  <View>
+                    <View
+                      className="text-sm text-muted-foreground"
+                      id="root_my-field__description"
+                    >
+                      <Text>
+                        some other description
+                      </Text>
+                    </View>
+                  </View>
+                </Text>
+              </View>
+            </View>
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`single fields format color 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-string"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <Text
+        className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+      />
+      <View>
+        <TextInput
+          aria-describedby="root__error root__description root__help"
+          autoFocus={false}
+          className="w-full flex-row rounded-md border border-input bg-transparent p-3 text-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+          disabled={false}
+          id="root"
+          name="root"
+          onChangeText={[Function]}
+          placeholder=""
+          readOnly={false}
+          type="color"
+          value=""
+        />
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`single fields format date 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-string"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <Text
+        className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+      />
+      <View>
+        <TextInput
+          aria-describedby="root__error root__description root__help"
+          autoFocus={false}
+          className="w-full flex-row rounded-md border border-input bg-transparent p-3 text-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+          disabled={false}
+          id="root"
+          name="root"
+          onChangeText={[Function]}
+          placeholder=""
+          readOnly={false}
+          type="date"
+          value=""
+        />
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`single fields format datetime 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-string"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <Text
+        className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+      />
+      <View>
+        <TextInput
+          aria-describedby="root__error root__description root__help"
+          autoFocus={false}
+          className="w-full flex-row rounded-md border border-input bg-transparent p-3 text-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+          disabled={false}
+          id="root"
+          name="root"
+          onChangeText={[Function]}
+          placeholder=""
+          readOnly={false}
+          type="datetime-local"
+          value=""
+        />
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`single fields format time 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-string"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <Text
+        className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+      />
+      <View>
+        <TextInput
+          aria-describedby="root__error root__description root__help"
+          autoFocus={false}
+          className="w-full flex-row rounded-md border border-input bg-transparent p-3 text-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+          disabled={false}
+          id="root"
+          name="root"
+          onChangeText={[Function]}
+          placeholder=""
+          readOnly={false}
+          type="time"
+          value=""
+        />
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`single fields help and error display 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="relative w-full rounded-lg border px-4 py-3 text-sm [&>svg+div]:translate-y-[-3px] [&>svg]:absolute [&>svg]:start-4 [&>svg]:top-4 [&>svg~*]:ps-7 border-destructive/50 text-destructive dark:border-destructive [&>svg]:text-destructive mb-2"
+    role="alert"
+  >
+    <AlertCircle
+      className="h-4 w-4"
+    />
+    <Text
+      className="mb-1 font-medium leading-none tracking-tight"
+    >
+      Errors
+    </Text>
+    <View
+      className="text-sm [&_p]:leading-relaxed flex-col gap-1"
+    >
+      <Text>
+        • 
+        . an error
+      </Text>
+    </View>
+  </View>
+  <View
+    className="rjsf-field rjsf-field-string rjsf-field-error"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <Text
+        className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 text-destructive"
+      />
+      <View>
+        <TextInput
+          aria-describedby="root__error root__description root__help"
+          autoFocus={false}
+          className="w-full flex-row rounded-md border bg-transparent p-3 text-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50 border-destructive"
+          disabled={false}
+          id="root"
+          name="root"
+          onChangeText={[Function]}
+          placeholder=""
+          readOnly={false}
+          type="text"
+          value=""
+        />
+      </View>
+      <View
+        className="flex-col gap-1"
+        id="root__error"
+      >
+        <Text
+          className="mb-1 text-xs font-medium text-destructive"
+        >
+          an error
+        </Text>
+      </View>
+      <Text
+        className="text-xs font-medium text-destructive"
+        id="root__help"
+      >
+        help me!
+      </Text>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`single fields hidden field 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-object"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <View
+        className="flex-col gap-5"
+      >
+        <View
+          className="flex-row hidden"
+        >
+          <Text
+            className="w-full"
+          >
+            <View
+              className="hidden"
+            >
+              <input
+                id="root_my-field"
+                name="root_my-field"
+                type="hidden"
+                value=""
+              />
+            </View>
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`single fields hidden label 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-string"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <View>
+        <TextInput
+          aria-describedby="root__error root__description root__help"
+          autoFocus={false}
+          className="w-full flex-row rounded-md border border-input bg-transparent p-3 text-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+          disabled={false}
+          id="root"
+          name="root"
+          onChangeText={[Function]}
+          placeholder=""
+          readOnly={false}
+          type="text"
+          value=""
+        />
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`single fields null field 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-null"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <Text
+        className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+      />
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`single fields number field 0 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-number"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <Text
+        className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+      />
+      <View>
+        <TextInput
+          aria-describedby="root__error root__description root__help"
+          autoFocus={false}
+          className="w-full flex-row rounded-md border border-input bg-transparent p-3 text-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+          disabled={false}
+          id="root"
+          name="root"
+          onChangeText={[Function]}
+          placeholder=""
+          readOnly={false}
+          step="any"
+          type="number"
+          value={0}
+        />
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`single fields number field 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-number"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <Text
+        className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+      />
+      <View>
+        <TextInput
+          aria-describedby="root__error root__description root__help"
+          autoFocus={false}
+          className="w-full flex-row rounded-md border border-input bg-transparent p-3 text-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+          disabled={false}
+          id="root"
+          name="root"
+          onChangeText={[Function]}
+          placeholder=""
+          readOnly={false}
+          step="any"
+          type="number"
+          value=""
+        />
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`single fields password field 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-string"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <Text
+        className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+      />
+      <View>
+        <TextInput
+          aria-describedby="root__error root__description root__help"
+          autoFocus={false}
+          className="w-full flex-row rounded-md border border-input bg-transparent p-3 text-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+          disabled={false}
+          id="root"
+          name="root"
+          onChangeText={[Function]}
+          placeholder=""
+          readOnly={false}
+          type="password"
+          value=""
+        />
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`single fields radio field 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-boolean"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <Text
+        className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+      />
+      <View
+        className="mb-0"
+      >
+        <View
+          aria-describedby="root__error root__description root__help"
+          className="grid gap-3 flex-wrap flex-col"
+          role="radiogroup"
+        >
+          <View
+            className="flex-row items-center gap-2"
+          >
+            <Pressable
+              accessibilityState={
+                {
+                  "checked": false,
+                  "disabled": false,
+                }
+              }
+              aria-checked={false}
+              className="aspect-square h-4 w-4 rounded-full border border-primary p-[2.5px] text-primary disabled:cursor-not-allowed disabled:opacity-50"
+              disabled={false}
+              id="root-0"
+              onPress={[Function]}
+              role="radio"
+            />
+            <Pressable
+              className="active:opacity-50"
+              hitSlop={6}
+              onPress={[Function]}
+            >
+              <View
+                className="text-sm font-medium peer-disabled:cursor-not-allowed peer-disabled:opacity-70 leading-tight"
+              >
+                <Text>
+                  Yes
+                </Text>
+              </View>
+            </Pressable>
+          </View>
+          <View
+            className="flex-row items-center gap-2"
+          >
+            <Pressable
+              accessibilityState={
+                {
+                  "checked": false,
+                  "disabled": false,
+                }
+              }
+              aria-checked={false}
+              className="aspect-square h-4 w-4 rounded-full border border-primary p-[2.5px] text-primary disabled:cursor-not-allowed disabled:opacity-50"
+              disabled={false}
+              id="root-1"
+              onPress={[Function]}
+              role="radio"
+            />
+            <Pressable
+              className="active:opacity-50"
+              hitSlop={6}
+              onPress={[Function]}
+            >
+              <View
+                className="text-sm font-medium peer-disabled:cursor-not-allowed peer-disabled:opacity-70 leading-tight"
+              >
+                <Text>
+                  No
+                </Text>
+              </View>
+            </Pressable>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`single fields schema examples 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-string"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <Text
+        className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+      />
+      <View>
+        <TextInput
+          aria-describedby="root__error root__description root__help root__examples"
+          autoFocus={false}
+          className="w-full flex-row rounded-md border border-input bg-transparent p-3 text-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+          disabled={false}
+          id="root"
+          list="root__examples"
+          name="root"
+          onChangeText={[Function]}
+          placeholder=""
+          readOnly={false}
+          type="text"
+          value=""
+        />
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`single fields select field 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-string"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <Text
+        className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+      />
+      <View
+        aria-describedby="root__error root__description root__help"
+        aria-disabled={false}
+        className="bg-transparent"
+      >
+        <Pressable
+          className="h-9 w-full flex-row items-center justify-between gap-2 whitespace-nowrap rounded-md border border-input bg-transparent px-3 py-2 text-sm placeholder:text-muted-foreground disabled:cursor-not-allowed disabled:opacity-50"
+          onPress={[Function]}
+        >
+          <Text
+            className="line-clamp-1 flex-1 text-muted-foreground"
+          />
+          <ChevronDown
+            className="h-4 w-4 opacity-50"
+          />
+        </Pressable>
+        <BottomSheetModal
+          snapPoints={
+            [
+              "50%",
+            ]
+          }
+          style={
+            {
+              "$$css": true,
+              "border-input bg-popover": "border-input bg-popover",
+            }
+          }
+        >
+          <BottomSheetScrollView>
+            <View
+              className="flex-1 flex-col items-start justify-start gap-4 p-4 pb-10"
+            >
+              <Pressable
+                className="w-full cursor-pointer flex-row items-center justify-between gap-2 rounded-sm py-1.5"
+                onPress={[Function]}
+              >
+                <Text>
+                  foo
+                </Text>
+                <Text
+                  className="h-4 w-4 flex-row items-center justify-center"
+                />
+              </Pressable>
+              <Pressable
+                className="w-full cursor-pointer flex-row items-center justify-between gap-2 rounded-sm py-1.5"
+                onPress={[Function]}
+              >
+                <Text>
+                  bar
+                </Text>
+                <Text
+                  className="h-4 w-4 flex-row items-center justify-center"
+                />
+              </Pressable>
+            </View>
+          </BottomSheetScrollView>
+        </BottomSheetModal>
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`single fields select field multiple choice 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-array"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <Text
+        className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+      />
+      <View
+        aria-describedby="root__error root__description root__help"
+        aria-disabled={false}
+        className="bg-transparent"
+      >
+        <Pressable
+          className="h-9 w-full flex-row items-center justify-between gap-2 whitespace-nowrap rounded-md border border-input bg-transparent px-3 py-2 text-sm placeholder:text-muted-foreground disabled:cursor-not-allowed disabled:opacity-50"
+          onPress={[Function]}
+        >
+          <Text
+            className="line-clamp-1 flex-1 text-muted-foreground"
+          >
+            Select...
+          </Text>
+          <ChevronDown
+            className="h-4 w-4 opacity-50"
+          />
+        </Pressable>
+        <BottomSheetModal
+          snapPoints={
+            [
+              "50%",
+            ]
+          }
+          style={
+            {
+              "$$css": true,
+              "border-input bg-popover": "border-input bg-popover",
+            }
+          }
+        >
+          <BottomSheetScrollView>
+            <View
+              className="flex-1 flex-col items-start justify-start gap-4 p-4 pb-10"
+            >
+              <Pressable
+                className="w-full cursor-pointer flex-row items-center justify-between gap-2 rounded-sm py-1.5"
+                onPress={[Function]}
+              >
+                <Text>
+                  foo
+                </Text>
+                <Text
+                  className="h-4 w-4 flex-row items-center justify-center"
+                />
+              </Pressable>
+              <Pressable
+                className="w-full cursor-pointer flex-row items-center justify-between gap-2 rounded-sm py-1.5"
+                onPress={[Function]}
+              >
+                <Text>
+                  bar
+                </Text>
+                <Text
+                  className="h-4 w-4 flex-row items-center justify-center"
+                />
+              </Pressable>
+              <Pressable
+                className="w-full cursor-pointer flex-row items-center justify-between gap-2 rounded-sm py-1.5"
+                onPress={[Function]}
+              >
+                <Text>
+                  fuzz
+                </Text>
+                <Text
+                  className="h-4 w-4 flex-row items-center justify-center"
+                />
+              </Pressable>
+              <Pressable
+                className="w-full cursor-pointer flex-row items-center justify-between gap-2 rounded-sm py-1.5"
+                onPress={[Function]}
+              >
+                <Text>
+                  qux
+                </Text>
+                <Text
+                  className="h-4 w-4 flex-row items-center justify-center"
+                />
+              </Pressable>
+            </View>
+          </BottomSheetScrollView>
+        </BottomSheetModal>
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`single fields select field multiple choice enumDisabled 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-array"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <Text
+        className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+      />
+      <View
+        aria-describedby="root__error root__description root__help"
+        aria-disabled={false}
+        className="bg-transparent"
+      >
+        <Pressable
+          className="h-9 w-full flex-row items-center justify-between gap-2 whitespace-nowrap rounded-md border border-input bg-transparent px-3 py-2 text-sm placeholder:text-muted-foreground disabled:cursor-not-allowed disabled:opacity-50"
+          onPress={[Function]}
+        >
+          <Text
+            className="line-clamp-1 flex-1 text-muted-foreground"
+          >
+            Select...
+          </Text>
+          <ChevronDown
+            className="h-4 w-4 opacity-50"
+          />
+        </Pressable>
+        <BottomSheetModal
+          snapPoints={
+            [
+              "50%",
+            ]
+          }
+          style={
+            {
+              "$$css": true,
+              "border-input bg-popover": "border-input bg-popover",
+            }
+          }
+        >
+          <BottomSheetScrollView>
+            <View
+              className="flex-1 flex-col items-start justify-start gap-4 p-4 pb-10"
+            >
+              <Pressable
+                className="w-full cursor-pointer flex-row items-center justify-between gap-2 rounded-sm py-1.5"
+                onPress={[Function]}
+              >
+                <Text>
+                  foo
+                </Text>
+                <Text
+                  className="h-4 w-4 flex-row items-center justify-center"
+                />
+              </Pressable>
+              <Pressable
+                className="w-full flex-row items-center justify-between gap-2 rounded-sm py-1.5 cursor-not-allowed opacity-50"
+                onPress={[Function]}
+              >
+                <Text>
+                  bar
+                </Text>
+                <Text
+                  className="h-4 w-4 flex-row items-center justify-center"
+                />
+              </Pressable>
+              <Pressable
+                className="w-full cursor-pointer flex-row items-center justify-between gap-2 rounded-sm py-1.5"
+                onPress={[Function]}
+              >
+                <Text>
+                  fuzz
+                </Text>
+                <Text
+                  className="h-4 w-4 flex-row items-center justify-center"
+                />
+              </Pressable>
+              <Pressable
+                className="w-full cursor-pointer flex-row items-center justify-between gap-2 rounded-sm py-1.5"
+                onPress={[Function]}
+              >
+                <Text>
+                  qux
+                </Text>
+                <Text
+                  className="h-4 w-4 flex-row items-center justify-center"
+                />
+              </Pressable>
+            </View>
+          </BottomSheetScrollView>
+        </BottomSheetModal>
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`single fields select field multiple choice enumDisabled using checkboxes 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-array"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <Text
+        className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+      />
+      <View
+        className="flex-col gap-3"
+      >
+        <View
+          className="flex-row items-center gap-2"
+        >
+          <Pressable
+            accessibilityState={
+              {
+                "checked": false,
+                "disabled": false,
+              }
+            }
+            aria-checked={false}
+            aria-describedby="root__error root__description root__help"
+            aria-disabled={false}
+            className="peer h-5 w-5 shrink-0 rounded-sm border border-primary focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground"
+            disabled={false}
+            id="root-0"
+            onPress={[Function]}
+            role="checkbox"
+          />
+          <Pressable
+            className="active:opacity-50"
+            hitSlop={6}
+            onPress={[Function]}
+          >
+            <View
+              className="text-sm font-medium peer-disabled:cursor-not-allowed peer-disabled:opacity-70 leading-tight"
+            >
+              <Text>
+                foo
+              </Text>
+            </View>
+          </Pressable>
+        </View>
+        <View
+          className="flex-row items-center gap-2"
+        >
+          <Pressable
+            accessibilityState={
+              {
+                "checked": false,
+                "disabled": true,
+              }
+            }
+            aria-checked={false}
+            aria-describedby="root__error root__description root__help"
+            aria-disabled={true}
+            className="peer h-5 w-5 shrink-0 rounded-sm border border-primary focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground"
+            disabled={true}
+            id="root-1"
+            onPress={[Function]}
+            role="checkbox"
+          />
+          <Pressable
+            className=""
+            hitSlop={6}
+          >
+            <View
+              className="text-sm font-medium peer-disabled:cursor-not-allowed peer-disabled:opacity-70 leading-tight"
+            >
+              <Text>
+                bar
+              </Text>
+            </View>
+          </Pressable>
+        </View>
+        <View
+          className="flex-row items-center gap-2"
+        >
+          <Pressable
+            accessibilityState={
+              {
+                "checked": false,
+                "disabled": false,
+              }
+            }
+            aria-checked={false}
+            aria-describedby="root__error root__description root__help"
+            aria-disabled={false}
+            className="peer h-5 w-5 shrink-0 rounded-sm border border-primary focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground"
+            disabled={false}
+            id="root-2"
+            onPress={[Function]}
+            role="checkbox"
+          />
+          <Pressable
+            className="active:opacity-50"
+            hitSlop={6}
+            onPress={[Function]}
+          >
+            <View
+              className="text-sm font-medium peer-disabled:cursor-not-allowed peer-disabled:opacity-70 leading-tight"
+            >
+              <Text>
+                fuzz
+              </Text>
+            </View>
+          </Pressable>
+        </View>
+        <View
+          className="flex-row items-center gap-2"
+        >
+          <Pressable
+            accessibilityState={
+              {
+                "checked": false,
+                "disabled": false,
+              }
+            }
+            aria-checked={false}
+            aria-describedby="root__error root__description root__help"
+            aria-disabled={false}
+            className="peer h-5 w-5 shrink-0 rounded-sm border border-primary focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground"
+            disabled={false}
+            id="root-3"
+            onPress={[Function]}
+            role="checkbox"
+          />
+          <Pressable
+            className="active:opacity-50"
+            hitSlop={6}
+            onPress={[Function]}
+          >
+            <View
+              className="text-sm font-medium peer-disabled:cursor-not-allowed peer-disabled:opacity-70 leading-tight"
+            >
+              <Text>
+                qux
+              </Text>
+            </View>
+          </Pressable>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`single fields select field multiple choice formData 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-array"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <Text
+        className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+      />
+      <View
+        aria-describedby="root__error root__description root__help"
+        aria-disabled={false}
+        className="bg-transparent"
+      >
+        <Pressable
+          className="h-9 w-full flex-row items-center justify-between gap-2 whitespace-nowrap rounded-md border border-input bg-transparent px-3 py-2 text-sm placeholder:text-muted-foreground disabled:cursor-not-allowed disabled:opacity-50"
+          onPress={[Function]}
+        >
+          <Text
+            className="line-clamp-1 flex-1 text-muted-foreground"
+          >
+            Select...
+          </Text>
+          <ChevronDown
+            className="h-4 w-4 opacity-50"
+          />
+        </Pressable>
+        <BottomSheetModal
+          snapPoints={
+            [
+              "50%",
+            ]
+          }
+          style={
+            {
+              "$$css": true,
+              "border-input bg-popover": "border-input bg-popover",
+            }
+          }
+        >
+          <BottomSheetScrollView>
+            <View
+              className="flex-1 flex-col items-start justify-start gap-4 p-4 pb-10"
+            >
+              <Pressable
+                className="w-full cursor-pointer flex-row items-center justify-between gap-2 rounded-sm py-1.5"
+                onPress={[Function]}
+              >
+                <Text>
+                  foo
+                </Text>
+                <Text
+                  className="h-4 w-4 flex-row items-center justify-center"
+                />
+              </Pressable>
+              <Pressable
+                className="w-full cursor-pointer flex-row items-center justify-between gap-2 rounded-sm py-1.5"
+                onPress={[Function]}
+              >
+                <Text>
+                  bar
+                </Text>
+                <Text
+                  className="h-4 w-4 flex-row items-center justify-center"
+                />
+              </Pressable>
+              <Pressable
+                className="w-full cursor-pointer flex-row items-center justify-between gap-2 rounded-sm py-1.5"
+                onPress={[Function]}
+              >
+                <Text>
+                  fuzz
+                </Text>
+                <Text
+                  className="h-4 w-4 flex-row items-center justify-center"
+                />
+              </Pressable>
+              <Pressable
+                className="w-full cursor-pointer flex-row items-center justify-between gap-2 rounded-sm py-1.5"
+                onPress={[Function]}
+              >
+                <Text>
+                  qux
+                </Text>
+                <Text
+                  className="h-4 w-4 flex-row items-center justify-center"
+                />
+              </Pressable>
+            </View>
+          </BottomSheetScrollView>
+        </BottomSheetModal>
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`single fields select field multiple choice with labels 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-array"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <Text
+        className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+      />
+      <View
+        aria-describedby="root__error root__description root__help"
+        aria-disabled={false}
+        className="bg-transparent"
+      >
+        <Pressable
+          className="h-9 w-full flex-row items-center justify-between gap-2 whitespace-nowrap rounded-md border border-input bg-transparent px-3 py-2 text-sm placeholder:text-muted-foreground disabled:cursor-not-allowed disabled:opacity-50"
+          onPress={[Function]}
+        >
+          <Text
+            className="line-clamp-1 flex-1 text-muted-foreground"
+          >
+            Select...
+          </Text>
+          <ChevronDown
+            className="h-4 w-4 opacity-50"
+          />
+        </Pressable>
+        <BottomSheetModal
+          snapPoints={
+            [
+              "50%",
+            ]
+          }
+          style={
+            {
+              "$$css": true,
+              "border-input bg-popover": "border-input bg-popover",
+            }
+          }
+        >
+          <BottomSheetScrollView>
+            <View
+              className="flex-1 flex-col items-start justify-start gap-4 p-4 pb-10"
+            >
+              <Pressable
+                className="w-full cursor-pointer flex-row items-center justify-between gap-2 rounded-sm py-1.5"
+                onPress={[Function]}
+              >
+                <Text>
+                  Blue
+                </Text>
+                <Text
+                  className="h-4 w-4 flex-row items-center justify-center"
+                />
+              </Pressable>
+              <Pressable
+                className="w-full cursor-pointer flex-row items-center justify-between gap-2 rounded-sm py-1.5"
+                onPress={[Function]}
+              >
+                <Text>
+                  Red
+                </Text>
+                <Text
+                  className="h-4 w-4 flex-row items-center justify-center"
+                />
+              </Pressable>
+              <Pressable
+                className="w-full cursor-pointer flex-row items-center justify-between gap-2 rounded-sm py-1.5"
+                onPress={[Function]}
+              >
+                <Text>
+                  Green
+                </Text>
+                <Text
+                  className="h-4 w-4 flex-row items-center justify-center"
+                />
+              </Pressable>
+            </View>
+          </BottomSheetScrollView>
+        </BottomSheetModal>
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`single fields select field single choice enumDisabled 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-string"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <Text
+        className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+      />
+      <View
+        aria-describedby="root__error root__description root__help"
+        aria-disabled={false}
+        className="bg-transparent"
+      >
+        <Pressable
+          className="h-9 w-full flex-row items-center justify-between gap-2 whitespace-nowrap rounded-md border border-input bg-transparent px-3 py-2 text-sm placeholder:text-muted-foreground disabled:cursor-not-allowed disabled:opacity-50"
+          onPress={[Function]}
+        >
+          <Text
+            className="line-clamp-1 flex-1 text-muted-foreground"
+          />
+          <ChevronDown
+            className="h-4 w-4 opacity-50"
+          />
+        </Pressable>
+        <BottomSheetModal
+          snapPoints={
+            [
+              "50%",
+            ]
+          }
+          style={
+            {
+              "$$css": true,
+              "border-input bg-popover": "border-input bg-popover",
+            }
+          }
+        >
+          <BottomSheetScrollView>
+            <View
+              className="flex-1 flex-col items-start justify-start gap-4 p-4 pb-10"
+            >
+              <Pressable
+                className="w-full cursor-pointer flex-row items-center justify-between gap-2 rounded-sm py-1.5"
+                onPress={[Function]}
+              >
+                <Text>
+                  foo
+                </Text>
+                <Text
+                  className="h-4 w-4 flex-row items-center justify-center"
+                />
+              </Pressable>
+              <Pressable
+                className="w-full flex-row items-center justify-between gap-2 rounded-sm py-1.5 cursor-not-allowed opacity-50"
+                onPress={[Function]}
+              >
+                <Text>
+                  bar
+                </Text>
+                <Text
+                  className="h-4 w-4 flex-row items-center justify-center"
+                />
+              </Pressable>
+            </View>
+          </BottomSheetScrollView>
+        </BottomSheetModal>
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`single fields select field single choice enumDisabled using radio widget 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-string"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <Text
+        className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+      />
+      <View
+        className="mb-0"
+      >
+        <View
+          aria-describedby="root__error root__description root__help"
+          className="grid gap-3 flex-wrap flex-col"
+          role="radiogroup"
+        >
+          <View
+            className="flex-row items-center gap-2"
+          >
+            <Pressable
+              accessibilityState={
+                {
+                  "checked": false,
+                  "disabled": false,
+                }
+              }
+              aria-checked={false}
+              className="aspect-square h-4 w-4 rounded-full border border-primary p-[2.5px] text-primary disabled:cursor-not-allowed disabled:opacity-50"
+              disabled={false}
+              id="root-0"
+              onPress={[Function]}
+              role="radio"
+            />
+            <Pressable
+              className="active:opacity-50"
+              hitSlop={6}
+              onPress={[Function]}
+            >
+              <View
+                className="text-sm font-medium peer-disabled:cursor-not-allowed peer-disabled:opacity-70 leading-tight"
+              >
+                <Text>
+                  foo
+                </Text>
+              </View>
+            </Pressable>
+          </View>
+          <View
+            className="flex-row items-center gap-2"
+          >
+            <Pressable
+              accessibilityState={
+                {
+                  "checked": false,
+                  "disabled": true,
+                }
+              }
+              aria-checked={false}
+              className="aspect-square h-4 w-4 rounded-full border border-primary p-[2.5px] text-primary disabled:cursor-not-allowed disabled:opacity-50"
+              disabled={true}
+              id="root-1"
+              onPress={[Function]}
+              role="radio"
+            />
+            <Pressable
+              className=""
+              hitSlop={6}
+            >
+              <View
+                className="text-sm font-medium peer-disabled:cursor-not-allowed peer-disabled:opacity-70 leading-tight"
+              >
+                <Text>
+                  bar
+                </Text>
+              </View>
+            </Pressable>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`single fields select field single choice form disabled using radio widget 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-string"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <Text
+        className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+      />
+      <View
+        className="mb-0"
+      >
+        <View
+          aria-describedby="root__error root__description root__help"
+          className="grid gap-3 flex-wrap flex-col"
+          role="radiogroup"
+        >
+          <View
+            className="flex-row items-center gap-2"
+          >
+            <Pressable
+              accessibilityState={
+                {
+                  "checked": false,
+                  "disabled": true,
+                }
+              }
+              aria-checked={false}
+              className="aspect-square h-4 w-4 rounded-full border border-primary p-[2.5px] text-primary disabled:cursor-not-allowed disabled:opacity-50"
+              disabled={true}
+              id="root-0"
+              onPress={[Function]}
+              role="radio"
+            />
+            <Pressable
+              className="active:opacity-50"
+              hitSlop={6}
+              onPress={[Function]}
+            >
+              <View
+                className="text-sm font-medium peer-disabled:cursor-not-allowed peer-disabled:opacity-70 leading-tight"
+              >
+                <Text>
+                  foo
+                </Text>
+              </View>
+            </Pressable>
+          </View>
+          <View
+            className="flex-row items-center gap-2"
+          >
+            <Pressable
+              accessibilityState={
+                {
+                  "checked": false,
+                  "disabled": true,
+                }
+              }
+              aria-checked={false}
+              className="aspect-square h-4 w-4 rounded-full border border-primary p-[2.5px] text-primary disabled:cursor-not-allowed disabled:opacity-50"
+              disabled={true}
+              id="root-1"
+              onPress={[Function]}
+              role="radio"
+            />
+            <Pressable
+              className="active:opacity-50"
+              hitSlop={6}
+              onPress={[Function]}
+            >
+              <View
+                className="text-sm font-medium peer-disabled:cursor-not-allowed peer-disabled:opacity-70 leading-tight"
+              >
+                <Text>
+                  bar
+                </Text>
+              </View>
+            </Pressable>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={true}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`single fields select field single choice formData 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-string"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <Text
+        className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+      />
+      <View
+        aria-describedby="root__error root__description root__help"
+        aria-disabled={false}
+        className="bg-transparent"
+      >
+        <Pressable
+          className="h-9 w-full flex-row items-center justify-between gap-2 whitespace-nowrap rounded-md border border-input bg-transparent px-3 py-2 text-sm placeholder:text-muted-foreground disabled:cursor-not-allowed disabled:opacity-50"
+          onPress={[Function]}
+        >
+          <Text
+            className="line-clamp-1 flex-1"
+          >
+            bar
+          </Text>
+          <ChevronDown
+            className="h-4 w-4 opacity-50"
+          />
+        </Pressable>
+        <BottomSheetModal
+          snapPoints={
+            [
+              "50%",
+            ]
+          }
+          style={
+            {
+              "$$css": true,
+              "border-input bg-popover": "border-input bg-popover",
+            }
+          }
+        >
+          <BottomSheetScrollView>
+            <View
+              className="flex-1 flex-col items-start justify-start gap-4 p-4 pb-10"
+            >
+              <Pressable
+                className="w-full cursor-pointer flex-row items-center justify-between gap-2 rounded-sm py-1.5"
+                onPress={[Function]}
+              >
+                <Text>
+                  foo
+                </Text>
+                <Text
+                  className="h-4 w-4 flex-row items-center justify-center"
+                />
+              </Pressable>
+              <Pressable
+                className="w-full cursor-pointer flex-row items-center justify-between gap-2 rounded-sm py-1.5 font-semibold"
+                onPress={[Function]}
+              >
+                <Text>
+                  bar
+                </Text>
+                <Text
+                  className="h-4 w-4 flex-row items-center justify-center"
+                >
+                  <Check
+                    className="h-4 w-4"
+                  />
+                </Text>
+              </Pressable>
+            </View>
+          </BottomSheetScrollView>
+        </BottomSheetModal>
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`single fields select field single choice uiSchema disabled using radio widget 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-string"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <Text
+        className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+      />
+      <View
+        className="mb-0"
+      >
+        <View
+          aria-describedby="root__error root__description root__help"
+          className="grid gap-3 flex-wrap flex-col"
+          role="radiogroup"
+        >
+          <View
+            className="flex-row items-center gap-2"
+          >
+            <Pressable
+              accessibilityState={
+                {
+                  "checked": false,
+                  "disabled": true,
+                }
+              }
+              aria-checked={false}
+              className="aspect-square h-4 w-4 rounded-full border border-primary p-[2.5px] text-primary disabled:cursor-not-allowed disabled:opacity-50"
+              disabled={true}
+              id="root-0"
+              onPress={[Function]}
+              role="radio"
+            />
+            <Pressable
+              className="active:opacity-50"
+              hitSlop={6}
+              onPress={[Function]}
+            >
+              <View
+                className="text-sm font-medium peer-disabled:cursor-not-allowed peer-disabled:opacity-70 leading-tight"
+              >
+                <Text>
+                  foo
+                </Text>
+              </View>
+            </Pressable>
+          </View>
+          <View
+            className="flex-row items-center gap-2"
+          >
+            <Pressable
+              accessibilityState={
+                {
+                  "checked": false,
+                  "disabled": true,
+                }
+              }
+              aria-checked={false}
+              className="aspect-square h-4 w-4 rounded-full border border-primary p-[2.5px] text-primary disabled:cursor-not-allowed disabled:opacity-50"
+              disabled={true}
+              id="root-1"
+              onPress={[Function]}
+              role="radio"
+            />
+            <Pressable
+              className="active:opacity-50"
+              hitSlop={6}
+              onPress={[Function]}
+            >
+              <View
+                className="text-sm font-medium peer-disabled:cursor-not-allowed peer-disabled:opacity-70 leading-tight"
+              >
+                <Text>
+                  bar
+                </Text>
+              </View>
+            </Pressable>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`single fields slider field 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-integer"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <Text
+        className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+      />
+      <View
+        className="w-full flex-row"
+      >
+        <Slider
+          aria-describedby="root__error root__description root__help"
+          disabled={false}
+          id="root"
+          maximumValue={100}
+          minimumValue={42}
+          onValueChange={[Function]}
+          style={
+            {
+              "$$css": true,
+              "w-[240px]": "w-[240px]",
+            }
+          }
+          value={75}
+        />
+      </View>
+      <Text>
+        75
+      </Text>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`single fields string field format data-url 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-string"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <Text
+        className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+      />
+      <div>
+        <View>
+          <TextInput
+            aria-describedby="root__error root__description root__help"
+            autoFocus={false}
+            className="w-full flex-row rounded-md border border-input bg-transparent p-3 text-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+            disabled={false}
+            id="root"
+            name="root"
+            onChangeText={[Function]}
+            placeholder=""
+            readOnly={false}
+            type="file"
+            value=""
+          />
+        </View>
+      </div>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`single fields string field format email 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-string"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <Text
+        className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+      />
+      <View>
+        <TextInput
+          aria-describedby="root__error root__description root__help"
+          autoFocus={false}
+          className="w-full flex-row rounded-md border border-input bg-transparent p-3 text-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+          disabled={false}
+          id="root"
+          name="root"
+          onChangeText={[Function]}
+          placeholder=""
+          readOnly={false}
+          type="email"
+          value=""
+        />
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`single fields string field format uri 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-string"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <Text
+        className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+      />
+      <View>
+        <TextInput
+          aria-describedby="root__error root__description root__help"
+          autoFocus={false}
+          className="w-full flex-row rounded-md border border-input bg-transparent p-3 text-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+          disabled={false}
+          id="root"
+          name="root"
+          onChangeText={[Function]}
+          placeholder=""
+          readOnly={false}
+          type="url"
+          value=""
+        />
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`single fields string field regular 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-string"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <Text
+        className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+      />
+      <View>
+        <TextInput
+          aria-describedby="root__error root__description root__help"
+          autoFocus={false}
+          className="w-full flex-row rounded-md border border-input bg-transparent p-3 text-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+          disabled={false}
+          id="root"
+          name="root"
+          onChangeText={[Function]}
+          placeholder=""
+          readOnly={false}
+          type="text"
+          value=""
+        />
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`single fields string field with placeholder 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-string"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <Text
+        className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+      />
+      <View>
+        <TextInput
+          aria-describedby="root__error root__description root__help"
+          autoFocus={false}
+          className="w-full flex-row rounded-md border border-input bg-transparent p-3 text-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+          disabled={false}
+          id="root"
+          name="root"
+          onChangeText={[Function]}
+          placeholder="placeholder"
+          readOnly={false}
+          type="text"
+          value=""
+        />
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`single fields textarea field 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-string"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <Text
+        className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+      />
+      <View
+        className="flex-row"
+      >
+        <TextInput
+          aria-describedby="root__error root__description root__help"
+          autoFocus={false}
+          className="w-full flex-row rounded-md border border-input bg-transparent p-3 text-sm placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+          id="root"
+          numberOfLines={5}
+          onChangeText={[Function]}
+          placeholder=""
+          readOnly={false}
+          value=""
+        />
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`single fields title field 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-object"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <View
+        className="my-1 flex-col gap-0.5"
+        id="root__title"
+      >
+        <Text>
+          Titre 1
+        </Text>
+      </View>
+      <View
+        className="flex-col gap-5"
+      >
+        <View
+          className="flex-row"
+        >
+          <Text
+            className="w-full"
+          >
+            <View
+              className="rjsf-field rjsf-field-string"
+            >
+              <View
+                className="flex-col gap-3"
+              >
+                <Text
+                  className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                >
+                  Titre 2
+                </Text>
+                <View>
+                  <TextInput
+                    aria-describedby="root_title__error root_title__description root_title__help"
+                    autoFocus={false}
+                    className="w-full flex-row rounded-md border border-input bg-transparent p-3 text-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+                    disabled={false}
+                    id="root_title"
+                    name="root_title"
+                    onChangeText={[Function]}
+                    placeholder=""
+                    readOnly={false}
+                    required={false}
+                    type="text"
+                    value=""
+                  />
+                </View>
+              </View>
+            </View>
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`single fields unsupported field 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-undefined"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <Text
+        className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+      />
+      <View>
+        <Text>
+          Unsupported field schema for field \`root\`: _Unknown field type undefined_.
+        </Text>
+        <Text>
+          {}
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`single fields up/down field 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-number"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <Text
+        className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+      />
+      <View>
+        <TextInput
+          aria-describedby="root__error root__description root__help"
+          autoFocus={false}
+          className="w-full flex-row rounded-md border border-input bg-transparent p-3 text-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+          disabled={false}
+          id="root"
+          name="root"
+          onChangeText={[Function]}
+          placeholder=""
+          readOnly={false}
+          type="number"
+          value=""
+        />
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`single fields using custom tagName 1`] = `
+<View
+  as="div"
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-string"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <Text
+        className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+      />
+      <View>
+        <TextInput
+          aria-describedby="root__error root__description root__help"
+          autoFocus={false}
+          className="w-full flex-row rounded-md border border-input bg-transparent p-3 text-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+          disabled={false}
+          id="root"
+          name="root"
+          onChangeText={[Function]}
+          placeholder=""
+          readOnly={false}
+          type="text"
+          value=""
+        />
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;

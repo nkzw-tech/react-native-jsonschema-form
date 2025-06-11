@@ -1,0 +1,60 @@
+diff --git a/lib/arrayTests.js b/lib/arrayTests.js
+index a3d77cdb964878336453799bce93bacff6c4348d..d175e4bee75402cfc04f1a088fa990af62a1d324 100644
+--- a/lib/arrayTests.js
++++ b/lib/arrayTests.js
+@@ -1,6 +1,7 @@
+ import { jsx as _jsx } from "react/jsx-runtime";
+ import renderer from 'react-test-renderer';
+ import validator from '@rjsf/validator-ajv8';
++import { jest } from '@jest/globals';
+ jest.mock('@rjsf/utils', () => ({
+     ...jest.requireActual('@rjsf/utils'),
+     // Disable the getTestIds within the snapshot tests by returning an empty object
+diff --git a/lib/formTests.js b/lib/formTests.js
+index f967f69b6080ca8eeb19c8a23d3effb9ccacccc3..8d550e56f85cdc465f2e26e3212f02e561014daa 100644
+--- a/lib/formTests.js
++++ b/lib/formTests.js
+@@ -1,6 +1,7 @@
+ import { jsx as _jsx } from "react/jsx-runtime";
+ import renderer from 'react-test-renderer';
+ import validator from '@rjsf/validator-ajv8';
++import { jest } from '@jest/globals';
+ jest.mock('@rjsf/utils', () => ({
+     ...jest.requireActual('@rjsf/utils'),
+     // Disable the getTestIds within the snapshot tests by returning an empty object
+diff --git a/lib/gridTests.js b/lib/gridTests.js
+index e87917b9410e9c2fe5f4baa2f07bfba6daf27792..681eec9eb3cf4ebf5038acc30744b9111f91aaa5 100644
+--- a/lib/gridTests.js
++++ b/lib/gridTests.js
+@@ -2,6 +2,7 @@ import { jsx as _jsx } from "react/jsx-runtime";
+ import renderer from 'react-test-renderer';
+ import { LOOKUP_MAP_NAME } from '@rjsf/utils';
+ import validator from '@rjsf/validator-ajv8';
++import { jest } from '@jest/globals';
+ jest.mock('@rjsf/utils', () => ({
+     ...jest.requireActual('@rjsf/utils'),
+     // Disable the getTestIds within the snapshot tests by returning an empty object
+diff --git a/lib/objectTests.js b/lib/objectTests.js
+index d6a47263257be9b15d6ee9a8e8857929f24b5395..0bd45a41b183d5bdf6d5598839310918b5f9395f 100644
+--- a/lib/objectTests.js
++++ b/lib/objectTests.js
+@@ -1,6 +1,7 @@
+ import { jsx as _jsx } from "react/jsx-runtime";
+ import renderer from 'react-test-renderer';
+ import validator from '@rjsf/validator-ajv8';
++import { jest } from '@jest/globals';
+ jest.mock('@rjsf/utils', () => ({
+     ...jest.requireActual('@rjsf/utils'),
+     // Disable the getTestIds within the snapshot tests by returning an empty object
+diff --git a/package.json b/package.json
+index b46b51ae59ae16ebb5616cdcddf8e1a1743bf624..cd09fc4c0d353ebb1bd9da4f8a72e24a85851d28 100644
+--- a/package.json
++++ b/package.json
+@@ -18,6 +18,7 @@
+     ]
+   },
+   "main": "lib/index.js",
++  "type": "module",
+   "typings": "lib/index.d.ts",
+   "files": [
+     "dist",

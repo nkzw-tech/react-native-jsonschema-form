@@ -1,0 +1,2 @@
+patchedDependencies:
+  '@rjsf/snapshot-tests': patches/@rjsf__snapshot-tests.patch

@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`TextareaWidget simple with errors 1`] = `
+<View
+  className="flex-row"
+>
+  <TextInput
+    aria-describedby="_id__error _id__description _id__help"
+    autoFocus={true}
+    className="w-full flex-row rounded-md border border-input bg-transparent p-3 text-sm placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+    id="_id"
+    numberOfLines={5}
+    onChangeText={[Function]}
+    placeholder=""
+    readOnly={true}
+    value="value"
+  />
+</View>
+`;
+
+exports[`TextareaWidget simple without errors 1`] = `
+<View
+  className="flex-row"
+>
+  <TextInput
+    aria-describedby="_id__error _id__description _id__help"
+    autoFocus={true}
+    className="w-full flex-row rounded-md border border-input bg-transparent p-3 text-sm placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+    id="_id"
+    numberOfLines={5}
+    onChangeText={[Function]}
+    placeholder=""
+    readOnly={true}
+    value="value"
+  />
+</View>
+`;
+
+exports[`TextareaWidget simple without required 1`] = `
+<View
+  className="flex-row"
+>
+  <TextInput
+    aria-describedby="_id__error _id__description _id__help"
+    autoFocus={true}
+    className="w-full flex-row rounded-md border border-input bg-transparent p-3 text-sm placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+    id="_id"
+    numberOfLines={5}
+    onChangeText={[Function]}
+    placeholder=""
+    readOnly={true}
+    value="value"
+  />
+</View>
+`;

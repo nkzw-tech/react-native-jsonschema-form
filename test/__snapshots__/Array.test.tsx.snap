@@ -1,0 +1,3252 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`array fields array 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-array"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <View>
+        <View
+          className="m-0 flex-row p-0"
+        >
+          <View
+            className="m-0 w-full p-0"
+          >
+            <View
+              className="m-0 mb-2 w-full p-0"
+            >
+              <View
+                className="mt-2 flex-row"
+              >
+                <View
+                  className="m-0 p-0"
+                >
+                  <Pressable
+                    className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 border border-input bg-background hover:bg-accent hover:text-accent-foreground w-fit flex-row gap-2"
+                    disabled={false}
+                    id="root__add"
+                    onPress={[Function]}
+                  >
+                    <PlusCircle
+                      size={16}
+                    />
+                    <Text>
+                      Add Item
+                    </Text>
+                  </Pressable>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`array fields array icons 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-array"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <View>
+        <View
+          className="m-0 flex-row p-0"
+        >
+          <View
+            className="m-0 w-full p-0"
+          >
+            <View
+              className="m-0 mb-2 w-full p-0"
+            >
+              <View>
+                <View
+                  className="mb-2 flex-row flex-wrap"
+                >
+                  <View
+                    className="shrink grow"
+                  >
+                    <View
+                      className="rjsf-field rjsf-field-string"
+                    >
+                      <View
+                        className="flex-col gap-3"
+                      >
+                        <Text
+                          className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                        >
+                          *
+                        </Text>
+                        <View>
+                          <TextInput
+                            aria-describedby="root_0__error root_0__description root_0__help"
+                            autoFocus={false}
+                            className="w-full flex-row rounded-md border border-input bg-transparent p-3 text-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+                            disabled={false}
+                            id="root_0"
+                            name="root_0"
+                            onChangeText={[Function]}
+                            placeholder=""
+                            readOnly={false}
+                            required={true}
+                            type="text"
+                            value="a"
+                          />
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                  <View
+                    className="flex-row items-end justify-end p-0.5"
+                  >
+                    <View
+                      className="flex-row gap-2"
+                    >
+                      <Pressable
+                        className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border border-input bg-background hover:bg-accent hover:text-accent-foreground rjsf-array-item-move-up"
+                        disabled={true}
+                        id="root_0__moveUp"
+                        onPress={[Function]}
+                      >
+                        <ChevronUp
+                          size={16}
+                        />
+                      </Pressable>
+                      <Pressable
+                        className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border border-input bg-background hover:bg-accent hover:text-accent-foreground rjsf-array-item-move-down"
+                        disabled={false}
+                        id="root_0__moveDown"
+                        onPress={[Function]}
+                      >
+                        <ChevronDown
+                          size={16}
+                        />
+                      </Pressable>
+                      <Pressable
+                        className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border border-input bg-background hover:bg-accent hover:text-accent-foreground rjsf-array-item-copy"
+                        disabled={false}
+                        id="root_0__copy"
+                        onPress={[Function]}
+                      >
+                        <Copy
+                          size={16}
+                        />
+                      </Pressable>
+                      <Pressable
+                        className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border bg-background hover:bg-accent hover:text-accent-foreground border-destructive"
+                        disabled={false}
+                        id="root_0__remove"
+                        onPress={[Function]}
+                      >
+                        <Trash2
+                          size={16}
+                        />
+                      </Pressable>
+                    </View>
+                  </View>
+                </View>
+              </View>
+              <View>
+                <View
+                  className="mb-2 flex-row flex-wrap"
+                >
+                  <View
+                    className="shrink grow"
+                  >
+                    <View
+                      className="rjsf-field rjsf-field-string"
+                    >
+                      <View
+                        className="flex-col gap-3"
+                      >
+                        <Text
+                          className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                        >
+                          *
+                        </Text>
+                        <View>
+                          <TextInput
+                            aria-describedby="root_1__error root_1__description root_1__help"
+                            autoFocus={false}
+                            className="w-full flex-row rounded-md border border-input bg-transparent p-3 text-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+                            disabled={false}
+                            id="root_1"
+                            name="root_1"
+                            onChangeText={[Function]}
+                            placeholder=""
+                            readOnly={false}
+                            required={true}
+                            type="text"
+                            value="b"
+                          />
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                  <View
+                    className="flex-row items-end justify-end p-0.5"
+                  >
+                    <View
+                      className="flex-row gap-2"
+                    >
+                      <Pressable
+                        className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border border-input bg-background hover:bg-accent hover:text-accent-foreground rjsf-array-item-move-up"
+                        disabled={false}
+                        id="root_1__moveUp"
+                        onPress={[Function]}
+                      >
+                        <ChevronUp
+                          size={16}
+                        />
+                      </Pressable>
+                      <Pressable
+                        className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border border-input bg-background hover:bg-accent hover:text-accent-foreground rjsf-array-item-move-down"
+                        disabled={true}
+                        id="root_1__moveDown"
+                        onPress={[Function]}
+                      >
+                        <ChevronDown
+                          size={16}
+                        />
+                      </Pressable>
+                      <Pressable
+                        className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border border-input bg-background hover:bg-accent hover:text-accent-foreground rjsf-array-item-copy"
+                        disabled={false}
+                        id="root_1__copy"
+                        onPress={[Function]}
+                      >
+                        <Copy
+                          size={16}
+                        />
+                      </Pressable>
+                      <Pressable
+                        className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border bg-background hover:bg-accent hover:text-accent-foreground border-destructive"
+                        disabled={false}
+                        id="root_1__remove"
+                        onPress={[Function]}
+                      >
+                        <Trash2
+                          size={16}
+                        />
+                      </Pressable>
+                    </View>
+                  </View>
+                </View>
+              </View>
+              <View
+                className="mt-2 flex-row"
+              >
+                <View
+                  className="m-0 p-0"
+                >
+                  <Pressable
+                    className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 border border-input bg-background hover:bg-accent hover:text-accent-foreground w-fit flex-row gap-2"
+                    disabled={false}
+                    id="root__add"
+                    onPress={[Function]}
+                  >
+                    <PlusCircle
+                      size={16}
+                    />
+                    <Text>
+                      Add Item
+                    </Text>
+                  </Pressable>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`array fields checkboxes 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-array"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <Text
+        className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+      />
+      <View
+        aria-describedby="root__error root__description root__help"
+        aria-disabled={false}
+        className="bg-transparent"
+      >
+        <Pressable
+          className="h-9 w-full flex-row items-center justify-between gap-2 whitespace-nowrap rounded-md border border-input bg-transparent px-3 py-2 text-sm placeholder:text-muted-foreground disabled:cursor-not-allowed disabled:opacity-50"
+          onPress={[Function]}
+        >
+          <Text
+            className="line-clamp-1 flex-1 text-muted-foreground"
+          >
+            Select...
+          </Text>
+          <ChevronDown
+            className="h-4 w-4 opacity-50"
+          />
+        </Pressable>
+        <BottomSheetModal
+          snapPoints={
+            [
+              "50%",
+            ]
+          }
+          style={
+            {
+              "$$css": true,
+              "border-input bg-popover": "border-input bg-popover",
+            }
+          }
+        >
+          <BottomSheetScrollView>
+            <View
+              className="flex-1 flex-col items-start justify-start gap-4 p-4 pb-10"
+            >
+              <Pressable
+                className="w-full cursor-pointer flex-row items-center justify-between gap-2 rounded-sm py-1.5"
+                onPress={[Function]}
+              >
+                <Text>
+                  a
+                </Text>
+                <Text
+                  className="h-4 w-4 flex-row items-center justify-center"
+                />
+              </Pressable>
+              <Pressable
+                className="w-full cursor-pointer flex-row items-center justify-between gap-2 rounded-sm py-1.5"
+                onPress={[Function]}
+              >
+                <Text>
+                  b
+                </Text>
+                <Text
+                  className="h-4 w-4 flex-row items-center justify-center"
+                />
+              </Pressable>
+              <Pressable
+                className="w-full cursor-pointer flex-row items-center justify-between gap-2 rounded-sm py-1.5"
+                onPress={[Function]}
+              >
+                <Text>
+                  c
+                </Text>
+                <Text
+                  className="h-4 w-4 flex-row items-center justify-center"
+                />
+              </Pressable>
+            </View>
+          </BottomSheetScrollView>
+        </BottomSheetModal>
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`array fields empty errors array 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-object"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <View
+        className="flex-col gap-5"
+      >
+        <View
+          className="flex-row"
+        >
+          <Text
+            className="w-full"
+          >
+            <View
+              className="rjsf-field rjsf-field-string"
+            >
+              <View
+                className="flex-col gap-3"
+              >
+                <Text
+                  className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                >
+                  name
+                </Text>
+                <View>
+                  <TextInput
+                    aria-describedby="root_name__error root_name__description root_name__help"
+                    autoFocus={false}
+                    className="w-full flex-row rounded-md border border-input bg-transparent p-3 text-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+                    disabled={false}
+                    id="root_name"
+                    name="root_name"
+                    onChangeText={[Function]}
+                    placeholder=""
+                    readOnly={false}
+                    required={false}
+                    type="text"
+                    value=""
+                  />
+                </View>
+              </View>
+            </View>
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`array fields fixed array 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-array"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <View>
+        <View
+          className="m-0 flex-row p-0"
+        >
+          <View
+            className="m-0 w-full p-0"
+          >
+            <View
+              className="m-0 mb-2 w-full p-0"
+            >
+              <View>
+                <View
+                  className="mb-2 flex-row flex-wrap"
+                >
+                  <View
+                    className="shrink grow"
+                  >
+                    <View
+                      className="rjsf-field rjsf-field-string"
+                    >
+                      <View
+                        className="flex-col gap-3"
+                      >
+                        <Text
+                          className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                        >
+                          *
+                        </Text>
+                        <View>
+                          <TextInput
+                            aria-describedby="root_0__error root_0__description root_0__help"
+                            autoFocus={false}
+                            className="w-full flex-row rounded-md border border-input bg-transparent p-3 text-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+                            disabled={false}
+                            id="root_0"
+                            name="root_0"
+                            onChangeText={[Function]}
+                            placeholder=""
+                            readOnly={false}
+                            required={true}
+                            type="text"
+                            value=""
+                          />
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                  <View
+                    className="flex-row items-end justify-end p-0.5"
+                  />
+                </View>
+              </View>
+              <View>
+                <View
+                  className="mb-2 flex-row flex-wrap"
+                >
+                  <View
+                    className="shrink grow"
+                  >
+                    <View
+                      className="rjsf-field rjsf-field-number"
+                    >
+                      <View
+                        className="flex-col gap-3"
+                      >
+                        <Text
+                          className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                        >
+                          *
+                        </Text>
+                        <View>
+                          <TextInput
+                            aria-describedby="root_1__error root_1__description root_1__help"
+                            autoFocus={false}
+                            className="w-full flex-row rounded-md border border-input bg-transparent p-3 text-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+                            disabled={false}
+                            id="root_1"
+                            name="root_1"
+                            onChangeText={[Function]}
+                            placeholder=""
+                            readOnly={false}
+                            required={true}
+                            step="any"
+                            type="number"
+                            value=""
+                          />
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                  <View
+                    className="flex-row items-end justify-end p-0.5"
+                  />
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`array fields has errors 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="relative w-full rounded-lg border px-4 py-3 text-sm [&>svg+div]:translate-y-[-3px] [&>svg]:absolute [&>svg]:start-4 [&>svg]:top-4 [&>svg~*]:ps-7 border-destructive/50 text-destructive dark:border-destructive [&>svg]:text-destructive mb-2"
+    role="alert"
+  >
+    <AlertCircle
+      className="h-4 w-4"
+    />
+    <Text
+      className="mb-1 font-medium leading-none tracking-tight"
+    >
+      Errors
+    </Text>
+    <View
+      className="text-sm [&_p]:leading-relaxed flex-col gap-1"
+    >
+      <Text>
+        • 
+        .name Bad input
+      </Text>
+    </View>
+  </View>
+  <View
+    className="rjsf-field rjsf-field-object"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <View
+        className="flex-col gap-5"
+      >
+        <View
+          className="flex-row"
+        >
+          <Text
+            className="w-full"
+          >
+            <View
+              className="rjsf-field rjsf-field-string rjsf-field-error"
+            >
+              <View
+                className="flex-col gap-3"
+              >
+                <Text
+                  className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 text-destructive"
+                >
+                  name
+                </Text>
+                <View>
+                  <TextInput
+                    aria-describedby="root_name__error root_name__description root_name__help"
+                    autoFocus={false}
+                    className="w-full flex-row rounded-md border bg-transparent p-3 text-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50 border-destructive"
+                    disabled={false}
+                    id="root_name"
+                    name="root_name"
+                    onChangeText={[Function]}
+                    placeholder=""
+                    readOnly={false}
+                    required={false}
+                    type="text"
+                    value=""
+                  />
+                </View>
+                <View
+                  className="flex-col gap-1"
+                  id="root_name__error"
+                >
+                  <Text
+                    className="mb-1 text-xs font-medium text-destructive"
+                  >
+                    Bad input
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`array fields no errors 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-object"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <View
+        className="flex-col gap-5"
+      >
+        <View
+          className="flex-row"
+        >
+          <Text
+            className="w-full"
+          >
+            <View
+              className="rjsf-field rjsf-field-string"
+            >
+              <View
+                className="flex-col gap-3"
+              >
+                <Text
+                  className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                >
+                  name
+                </Text>
+                <View>
+                  <TextInput
+                    aria-describedby="root_name__error root_name__description root_name__help"
+                    autoFocus={false}
+                    className="w-full flex-row rounded-md border border-input bg-transparent p-3 text-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+                    disabled={false}
+                    id="root_name"
+                    name="root_name"
+                    onChangeText={[Function]}
+                    placeholder=""
+                    readOnly={false}
+                    required={false}
+                    type="text"
+                    value=""
+                  />
+                </View>
+              </View>
+            </View>
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`with title and description array 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-array"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <View>
+        <View
+          className="m-0 flex-row p-0"
+        >
+          <View
+            className="m-0 w-full p-0"
+          >
+            <View
+              className="my-1 flex-col gap-0.5"
+              id="root__title"
+            >
+              <Text>
+                Test field
+              </Text>
+            </View>
+            <View>
+              <View
+                className="text-sm text-muted-foreground"
+                id="root__description"
+              >
+                <Text>
+                  a test description
+                </Text>
+              </View>
+            </View>
+            <View
+              className="m-0 mb-2 w-full p-0"
+            >
+              <View
+                className="mt-2 flex-row"
+              >
+                <View
+                  className="m-0 p-0"
+                >
+                  <Pressable
+                    className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 border border-input bg-background hover:bg-accent hover:text-accent-foreground w-fit flex-row gap-2"
+                    disabled={false}
+                    id="root__add"
+                    onPress={[Function]}
+                  >
+                    <PlusCircle
+                      size={16}
+                    />
+                    <Text>
+                      Add Item
+                    </Text>
+                  </Pressable>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`with title and description array icons 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-array"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <View>
+        <View
+          className="m-0 flex-row p-0"
+        >
+          <View
+            className="m-0 w-full p-0"
+          >
+            <View
+              className="my-1 flex-col gap-0.5"
+              id="root__title"
+            >
+              <Text>
+                Test field
+              </Text>
+            </View>
+            <View>
+              <View
+                className="text-sm text-muted-foreground"
+                id="root__description"
+              >
+                <Text>
+                  a test description
+                </Text>
+              </View>
+            </View>
+            <View
+              className="m-0 mb-2 w-full p-0"
+            >
+              <View>
+                <View
+                  className="mb-2 flex-row flex-wrap"
+                >
+                  <View
+                    className="shrink grow"
+                  >
+                    <View
+                      className="rjsf-field rjsf-field-string"
+                    >
+                      <View
+                        className="flex-col gap-3"
+                      >
+                        <Text
+                          className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                        >
+                          Test item
+                          *
+                        </Text>
+                        <View>
+                          <TextInput
+                            aria-describedby="root_0__error root_0__description root_0__help"
+                            autoFocus={false}
+                            className="w-full flex-row rounded-md border border-input bg-transparent p-3 text-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+                            disabled={false}
+                            id="root_0"
+                            name="root_0"
+                            onChangeText={[Function]}
+                            placeholder=""
+                            readOnly={false}
+                            required={true}
+                            type="text"
+                            value="a"
+                          />
+                        </View>
+                        <Text
+                          className="text-xs font-medium text-muted-foreground"
+                        >
+                          <View>
+                            <View
+                              className="text-sm text-muted-foreground"
+                              id="root_0__description"
+                            >
+                              <Text>
+                                a test item description
+                              </Text>
+                            </View>
+                          </View>
+                        </Text>
+                      </View>
+                    </View>
+                  </View>
+                  <View
+                    className="flex-row items-end justify-end p-0.5"
+                  >
+                    <View
+                      className="flex-row gap-2"
+                    >
+                      <Pressable
+                        className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border border-input bg-background hover:bg-accent hover:text-accent-foreground rjsf-array-item-move-up"
+                        disabled={true}
+                        id="root_0__moveUp"
+                        onPress={[Function]}
+                      >
+                        <ChevronUp
+                          size={16}
+                        />
+                      </Pressable>
+                      <Pressable
+                        className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border border-input bg-background hover:bg-accent hover:text-accent-foreground rjsf-array-item-move-down"
+                        disabled={false}
+                        id="root_0__moveDown"
+                        onPress={[Function]}
+                      >
+                        <ChevronDown
+                          size={16}
+                        />
+                      </Pressable>
+                      <Pressable
+                        className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border border-input bg-background hover:bg-accent hover:text-accent-foreground rjsf-array-item-copy"
+                        disabled={false}
+                        id="root_0__copy"
+                        onPress={[Function]}
+                      >
+                        <Copy
+                          size={16}
+                        />
+                      </Pressable>
+                      <Pressable
+                        className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border bg-background hover:bg-accent hover:text-accent-foreground border-destructive"
+                        disabled={false}
+                        id="root_0__remove"
+                        onPress={[Function]}
+                      >
+                        <Trash2
+                          size={16}
+                        />
+                      </Pressable>
+                    </View>
+                  </View>
+                </View>
+              </View>
+              <View>
+                <View
+                  className="mb-2 flex-row flex-wrap"
+                >
+                  <View
+                    className="shrink grow"
+                  >
+                    <View
+                      className="rjsf-field rjsf-field-string"
+                    >
+                      <View
+                        className="flex-col gap-3"
+                      >
+                        <Text
+                          className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                        >
+                          Test item
+                          *
+                        </Text>
+                        <View>
+                          <TextInput
+                            aria-describedby="root_1__error root_1__description root_1__help"
+                            autoFocus={false}
+                            className="w-full flex-row rounded-md border border-input bg-transparent p-3 text-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+                            disabled={false}
+                            id="root_1"
+                            name="root_1"
+                            onChangeText={[Function]}
+                            placeholder=""
+                            readOnly={false}
+                            required={true}
+                            type="text"
+                            value="b"
+                          />
+                        </View>
+                        <Text
+                          className="text-xs font-medium text-muted-foreground"
+                        >
+                          <View>
+                            <View
+                              className="text-sm text-muted-foreground"
+                              id="root_1__description"
+                            >
+                              <Text>
+                                a test item description
+                              </Text>
+                            </View>
+                          </View>
+                        </Text>
+                      </View>
+                    </View>
+                  </View>
+                  <View
+                    className="flex-row items-end justify-end p-0.5"
+                  >
+                    <View
+                      className="flex-row gap-2"
+                    >
+                      <Pressable
+                        className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border border-input bg-background hover:bg-accent hover:text-accent-foreground rjsf-array-item-move-up"
+                        disabled={false}
+                        id="root_1__moveUp"
+                        onPress={[Function]}
+                      >
+                        <ChevronUp
+                          size={16}
+                        />
+                      </Pressable>
+                      <Pressable
+                        className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border border-input bg-background hover:bg-accent hover:text-accent-foreground rjsf-array-item-move-down"
+                        disabled={true}
+                        id="root_1__moveDown"
+                        onPress={[Function]}
+                      >
+                        <ChevronDown
+                          size={16}
+                        />
+                      </Pressable>
+                      <Pressable
+                        className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border border-input bg-background hover:bg-accent hover:text-accent-foreground rjsf-array-item-copy"
+                        disabled={false}
+                        id="root_1__copy"
+                        onPress={[Function]}
+                      >
+                        <Copy
+                          size={16}
+                        />
+                      </Pressable>
+                      <Pressable
+                        className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border bg-background hover:bg-accent hover:text-accent-foreground border-destructive"
+                        disabled={false}
+                        id="root_1__remove"
+                        onPress={[Function]}
+                      >
+                        <Trash2
+                          size={16}
+                        />
+                      </Pressable>
+                    </View>
+                  </View>
+                </View>
+              </View>
+              <View
+                className="mt-2 flex-row"
+              >
+                <View
+                  className="m-0 p-0"
+                >
+                  <Pressable
+                    className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 border border-input bg-background hover:bg-accent hover:text-accent-foreground w-fit flex-row gap-2"
+                    disabled={false}
+                    id="root__add"
+                    onPress={[Function]}
+                  >
+                    <PlusCircle
+                      size={16}
+                    />
+                    <Text>
+                      Add Item
+                    </Text>
+                  </Pressable>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`with title and description checkboxes 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-array"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <Text
+        className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+      >
+        Test field
+      </Text>
+      <View
+        aria-describedby="root__error root__description root__help"
+        aria-disabled={false}
+        className="bg-transparent"
+      >
+        <Pressable
+          className="h-9 w-full flex-row items-center justify-between gap-2 whitespace-nowrap rounded-md border border-input bg-transparent px-3 py-2 text-sm placeholder:text-muted-foreground disabled:cursor-not-allowed disabled:opacity-50"
+          onPress={[Function]}
+        >
+          <Text
+            className="line-clamp-1 flex-1 text-muted-foreground"
+          >
+            Select...
+          </Text>
+          <ChevronDown
+            className="h-4 w-4 opacity-50"
+          />
+        </Pressable>
+        <BottomSheetModal
+          snapPoints={
+            [
+              "50%",
+            ]
+          }
+          style={
+            {
+              "$$css": true,
+              "border-input bg-popover": "border-input bg-popover",
+            }
+          }
+        >
+          <BottomSheetScrollView>
+            <View
+              className="flex-1 flex-col items-start justify-start gap-4 p-4 pb-10"
+            >
+              <Pressable
+                className="w-full cursor-pointer flex-row items-center justify-between gap-2 rounded-sm py-1.5"
+                onPress={[Function]}
+              >
+                <Text>
+                  a
+                </Text>
+                <Text
+                  className="h-4 w-4 flex-row items-center justify-center"
+                />
+              </Pressable>
+              <Pressable
+                className="w-full cursor-pointer flex-row items-center justify-between gap-2 rounded-sm py-1.5"
+                onPress={[Function]}
+              >
+                <Text>
+                  b
+                </Text>
+                <Text
+                  className="h-4 w-4 flex-row items-center justify-center"
+                />
+              </Pressable>
+              <Pressable
+                className="w-full cursor-pointer flex-row items-center justify-between gap-2 rounded-sm py-1.5"
+                onPress={[Function]}
+              >
+                <Text>
+                  c
+                </Text>
+                <Text
+                  className="h-4 w-4 flex-row items-center justify-center"
+                />
+              </Pressable>
+            </View>
+          </BottomSheetScrollView>
+        </BottomSheetModal>
+      </View>
+      <Text
+        className="text-xs font-medium text-muted-foreground"
+      >
+        <View>
+          <View
+            className="text-sm text-muted-foreground"
+            id="root__description"
+          >
+            <Text>
+              a test description
+            </Text>
+          </View>
+        </View>
+      </Text>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`with title and description fixed array 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-array"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <View>
+        <View
+          className="m-0 flex-row p-0"
+        >
+          <View
+            className="m-0 w-full p-0"
+          >
+            <View
+              className="my-1 flex-col gap-0.5"
+              id="root__title"
+            >
+              <Text>
+                Test field
+              </Text>
+            </View>
+            <View>
+              <View
+                className="text-sm text-muted-foreground"
+                id="root__description"
+              >
+                <Text>
+                  a test description
+                </Text>
+              </View>
+            </View>
+            <View
+              className="m-0 mb-2 w-full p-0"
+            >
+              <View>
+                <View
+                  className="mb-2 flex-row flex-wrap"
+                >
+                  <View
+                    className="shrink grow"
+                  >
+                    <View
+                      className="rjsf-field rjsf-field-string"
+                    >
+                      <View
+                        className="flex-col gap-3"
+                      >
+                        <Text
+                          className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                        >
+                          Test item
+                          *
+                        </Text>
+                        <View>
+                          <TextInput
+                            aria-describedby="root_0__error root_0__description root_0__help"
+                            autoFocus={false}
+                            className="w-full flex-row rounded-md border border-input bg-transparent p-3 text-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+                            disabled={false}
+                            id="root_0"
+                            name="root_0"
+                            onChangeText={[Function]}
+                            placeholder=""
+                            readOnly={false}
+                            required={true}
+                            type="text"
+                            value=""
+                          />
+                        </View>
+                        <Text
+                          className="text-xs font-medium text-muted-foreground"
+                        >
+                          <View>
+                            <View
+                              className="text-sm text-muted-foreground"
+                              id="root_0__description"
+                            >
+                              <Text>
+                                a test item description
+                              </Text>
+                            </View>
+                          </View>
+                        </Text>
+                      </View>
+                    </View>
+                  </View>
+                  <View
+                    className="flex-row items-end justify-end p-0.5"
+                  />
+                </View>
+              </View>
+              <View>
+                <View
+                  className="mb-2 flex-row flex-wrap"
+                >
+                  <View
+                    className="shrink grow"
+                  >
+                    <View
+                      className="rjsf-field rjsf-field-number"
+                    >
+                      <View
+                        className="flex-col gap-3"
+                      >
+                        <Text
+                          className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                        >
+                          Test item
+                          *
+                        </Text>
+                        <View>
+                          <TextInput
+                            aria-describedby="root_1__error root_1__description root_1__help"
+                            autoFocus={false}
+                            className="w-full flex-row rounded-md border border-input bg-transparent p-3 text-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+                            disabled={false}
+                            id="root_1"
+                            name="root_1"
+                            onChangeText={[Function]}
+                            placeholder=""
+                            readOnly={false}
+                            required={true}
+                            step="any"
+                            type="number"
+                            value=""
+                          />
+                        </View>
+                        <Text
+                          className="text-xs font-medium text-muted-foreground"
+                        >
+                          <View>
+                            <View
+                              className="text-sm text-muted-foreground"
+                              id="root_1__description"
+                            >
+                              <Text>
+                                a test item description
+                              </Text>
+                            </View>
+                          </View>
+                        </Text>
+                      </View>
+                    </View>
+                  </View>
+                  <View
+                    className="flex-row items-end justify-end p-0.5"
+                  />
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`with title and description from both array 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-array"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <View>
+        <View
+          className="m-0 flex-row p-0"
+        >
+          <View
+            className="m-0 w-full p-0"
+          >
+            <View
+              className="my-1 flex-col gap-0.5"
+              id="root__title"
+            >
+              <Text>
+                My Field
+              </Text>
+            </View>
+            <View>
+              <View
+                className="text-sm text-muted-foreground"
+                id="root__description"
+              >
+                <Text>
+                  a fancier description
+                </Text>
+              </View>
+            </View>
+            <View
+              className="m-0 mb-2 w-full p-0"
+            >
+              <View
+                className="mt-2 flex-row"
+              >
+                <View
+                  className="m-0 p-0"
+                >
+                  <Pressable
+                    className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 border border-input bg-background hover:bg-accent hover:text-accent-foreground w-fit flex-row gap-2"
+                    disabled={false}
+                    id="root__add"
+                    onPress={[Function]}
+                  >
+                    <PlusCircle
+                      size={16}
+                    />
+                    <Text>
+                      Add Item
+                    </Text>
+                  </Pressable>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`with title and description from both array icons 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-array"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <View>
+        <View
+          className="m-0 flex-row p-0"
+        >
+          <View
+            className="m-0 w-full p-0"
+          >
+            <View
+              className="my-1 flex-col gap-0.5"
+              id="root__title"
+            >
+              <Text>
+                My Field
+              </Text>
+            </View>
+            <View>
+              <View
+                className="text-sm text-muted-foreground"
+                id="root__description"
+              >
+                <Text>
+                  a fancier description
+                </Text>
+              </View>
+            </View>
+            <View
+              className="m-0 mb-2 w-full p-0"
+            >
+              <View>
+                <View
+                  className="mb-2 flex-row flex-wrap"
+                >
+                  <View
+                    className="shrink grow"
+                  >
+                    <View
+                      className="rjsf-field rjsf-field-string"
+                    >
+                      <View
+                        className="flex-col gap-3"
+                      >
+                        <Text
+                          className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                        >
+                          My Item
+                          *
+                        </Text>
+                        <View>
+                          <TextInput
+                            aria-describedby="root_0__error root_0__description root_0__help"
+                            autoFocus={false}
+                            className="w-full flex-row rounded-md border border-input bg-transparent p-3 text-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+                            disabled={false}
+                            id="root_0"
+                            name="root_0"
+                            onChangeText={[Function]}
+                            placeholder=""
+                            readOnly={false}
+                            required={true}
+                            type="text"
+                            value="a"
+                          />
+                        </View>
+                        <Text
+                          className="text-xs font-medium text-muted-foreground"
+                        >
+                          <View>
+                            <View
+                              className="text-sm text-muted-foreground"
+                              id="root_0__description"
+                            >
+                              <Text>
+                                a fancier item description
+                              </Text>
+                            </View>
+                          </View>
+                        </Text>
+                      </View>
+                    </View>
+                  </View>
+                  <View
+                    className="flex-row items-end justify-end p-0.5"
+                  >
+                    <View
+                      className="flex-row gap-2"
+                    >
+                      <Pressable
+                        className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border border-input bg-background hover:bg-accent hover:text-accent-foreground rjsf-array-item-move-up"
+                        disabled={true}
+                        id="root_0__moveUp"
+                        onPress={[Function]}
+                      >
+                        <ChevronUp
+                          size={16}
+                        />
+                      </Pressable>
+                      <Pressable
+                        className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border border-input bg-background hover:bg-accent hover:text-accent-foreground rjsf-array-item-move-down"
+                        disabled={false}
+                        id="root_0__moveDown"
+                        onPress={[Function]}
+                      >
+                        <ChevronDown
+                          size={16}
+                        />
+                      </Pressable>
+                      <Pressable
+                        className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border border-input bg-background hover:bg-accent hover:text-accent-foreground rjsf-array-item-copy"
+                        disabled={false}
+                        id="root_0__copy"
+                        onPress={[Function]}
+                      >
+                        <Copy
+                          size={16}
+                        />
+                      </Pressable>
+                      <Pressable
+                        className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border bg-background hover:bg-accent hover:text-accent-foreground border-destructive"
+                        disabled={false}
+                        id="root_0__remove"
+                        onPress={[Function]}
+                      >
+                        <Trash2
+                          size={16}
+                        />
+                      </Pressable>
+                    </View>
+                  </View>
+                </View>
+              </View>
+              <View>
+                <View
+                  className="mb-2 flex-row flex-wrap"
+                >
+                  <View
+                    className="shrink grow"
+                  >
+                    <View
+                      className="rjsf-field rjsf-field-string"
+                    >
+                      <View
+                        className="flex-col gap-3"
+                      >
+                        <Text
+                          className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                        >
+                          My Item
+                          *
+                        </Text>
+                        <View>
+                          <TextInput
+                            aria-describedby="root_1__error root_1__description root_1__help"
+                            autoFocus={false}
+                            className="w-full flex-row rounded-md border border-input bg-transparent p-3 text-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+                            disabled={false}
+                            id="root_1"
+                            name="root_1"
+                            onChangeText={[Function]}
+                            placeholder=""
+                            readOnly={false}
+                            required={true}
+                            type="text"
+                            value="b"
+                          />
+                        </View>
+                        <Text
+                          className="text-xs font-medium text-muted-foreground"
+                        >
+                          <View>
+                            <View
+                              className="text-sm text-muted-foreground"
+                              id="root_1__description"
+                            >
+                              <Text>
+                                a fancier item description
+                              </Text>
+                            </View>
+                          </View>
+                        </Text>
+                      </View>
+                    </View>
+                  </View>
+                  <View
+                    className="flex-row items-end justify-end p-0.5"
+                  >
+                    <View
+                      className="flex-row gap-2"
+                    >
+                      <Pressable
+                        className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border border-input bg-background hover:bg-accent hover:text-accent-foreground rjsf-array-item-move-up"
+                        disabled={false}
+                        id="root_1__moveUp"
+                        onPress={[Function]}
+                      >
+                        <ChevronUp
+                          size={16}
+                        />
+                      </Pressable>
+                      <Pressable
+                        className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border border-input bg-background hover:bg-accent hover:text-accent-foreground rjsf-array-item-move-down"
+                        disabled={true}
+                        id="root_1__moveDown"
+                        onPress={[Function]}
+                      >
+                        <ChevronDown
+                          size={16}
+                        />
+                      </Pressable>
+                      <Pressable
+                        className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border border-input bg-background hover:bg-accent hover:text-accent-foreground rjsf-array-item-copy"
+                        disabled={false}
+                        id="root_1__copy"
+                        onPress={[Function]}
+                      >
+                        <Copy
+                          size={16}
+                        />
+                      </Pressable>
+                      <Pressable
+                        className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border bg-background hover:bg-accent hover:text-accent-foreground border-destructive"
+                        disabled={false}
+                        id="root_1__remove"
+                        onPress={[Function]}
+                      >
+                        <Trash2
+                          size={16}
+                        />
+                      </Pressable>
+                    </View>
+                  </View>
+                </View>
+              </View>
+              <View
+                className="mt-2 flex-row"
+              >
+                <View
+                  className="m-0 p-0"
+                >
+                  <Pressable
+                    className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 border border-input bg-background hover:bg-accent hover:text-accent-foreground w-fit flex-row gap-2"
+                    disabled={false}
+                    id="root__add"
+                    onPress={[Function]}
+                  >
+                    <PlusCircle
+                      size={16}
+                    />
+                    <Text>
+                      Add Item
+                    </Text>
+                  </Pressable>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`with title and description from both checkboxes 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-array"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <Text
+        className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+      >
+        My Field
+      </Text>
+      <View
+        aria-describedby="root__error root__description root__help"
+        aria-disabled={false}
+        className="bg-transparent"
+      >
+        <Pressable
+          className="h-9 w-full flex-row items-center justify-between gap-2 whitespace-nowrap rounded-md border border-input bg-transparent px-3 py-2 text-sm placeholder:text-muted-foreground disabled:cursor-not-allowed disabled:opacity-50"
+          onPress={[Function]}
+        >
+          <Text
+            className="line-clamp-1 flex-1 text-muted-foreground"
+          >
+            Select...
+          </Text>
+          <ChevronDown
+            className="h-4 w-4 opacity-50"
+          />
+        </Pressable>
+        <BottomSheetModal
+          snapPoints={
+            [
+              "50%",
+            ]
+          }
+          style={
+            {
+              "$$css": true,
+              "border-input bg-popover": "border-input bg-popover",
+            }
+          }
+        >
+          <BottomSheetScrollView>
+            <View
+              className="flex-1 flex-col items-start justify-start gap-4 p-4 pb-10"
+            >
+              <Pressable
+                className="w-full cursor-pointer flex-row items-center justify-between gap-2 rounded-sm py-1.5"
+                onPress={[Function]}
+              >
+                <Text>
+                  a
+                </Text>
+                <Text
+                  className="h-4 w-4 flex-row items-center justify-center"
+                />
+              </Pressable>
+              <Pressable
+                className="w-full cursor-pointer flex-row items-center justify-between gap-2 rounded-sm py-1.5"
+                onPress={[Function]}
+              >
+                <Text>
+                  b
+                </Text>
+                <Text
+                  className="h-4 w-4 flex-row items-center justify-center"
+                />
+              </Pressable>
+              <Pressable
+                className="w-full cursor-pointer flex-row items-center justify-between gap-2 rounded-sm py-1.5"
+                onPress={[Function]}
+              >
+                <Text>
+                  c
+                </Text>
+                <Text
+                  className="h-4 w-4 flex-row items-center justify-center"
+                />
+              </Pressable>
+            </View>
+          </BottomSheetScrollView>
+        </BottomSheetModal>
+      </View>
+      <Text
+        className="text-xs font-medium text-muted-foreground"
+      >
+        <View>
+          <View
+            className="text-sm text-muted-foreground"
+            id="root__description"
+          >
+            <Text>
+              a fancier description
+            </Text>
+          </View>
+        </View>
+      </Text>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`with title and description from both fixed array 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-array"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <View>
+        <View
+          className="m-0 flex-row p-0"
+        >
+          <View
+            className="m-0 w-full p-0"
+          >
+            <View
+              className="my-1 flex-col gap-0.5"
+              id="root__title"
+            >
+              <Text>
+                My Field
+              </Text>
+            </View>
+            <View>
+              <View
+                className="text-sm text-muted-foreground"
+                id="root__description"
+              >
+                <Text>
+                  a fancier description
+                </Text>
+              </View>
+            </View>
+            <View
+              className="m-0 mb-2 w-full p-0"
+            >
+              <View>
+                <View
+                  className="mb-2 flex-row flex-wrap"
+                >
+                  <View
+                    className="shrink grow"
+                  >
+                    <View
+                      className="rjsf-field rjsf-field-string"
+                    >
+                      <View
+                        className="flex-col gap-3"
+                      >
+                        <Text
+                          className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                        >
+                          My Item
+                          *
+                        </Text>
+                        <View>
+                          <TextInput
+                            aria-describedby="root_0__error root_0__description root_0__help"
+                            autoFocus={false}
+                            className="w-full flex-row rounded-md border border-input bg-transparent p-3 text-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+                            disabled={false}
+                            id="root_0"
+                            name="root_0"
+                            onChangeText={[Function]}
+                            placeholder=""
+                            readOnly={false}
+                            required={true}
+                            type="text"
+                            value=""
+                          />
+                        </View>
+                        <Text
+                          className="text-xs font-medium text-muted-foreground"
+                        >
+                          <View>
+                            <View
+                              className="text-sm text-muted-foreground"
+                              id="root_0__description"
+                            >
+                              <Text>
+                                a fancier item description
+                              </Text>
+                            </View>
+                          </View>
+                        </Text>
+                      </View>
+                    </View>
+                  </View>
+                  <View
+                    className="flex-row items-end justify-end p-0.5"
+                  />
+                </View>
+              </View>
+              <View>
+                <View
+                  className="mb-2 flex-row flex-wrap"
+                >
+                  <View
+                    className="shrink grow"
+                  >
+                    <View
+                      className="rjsf-field rjsf-field-number"
+                    >
+                      <View
+                        className="flex-col gap-3"
+                      >
+                        <Text
+                          className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                        >
+                          My Item
+                          *
+                        </Text>
+                        <View>
+                          <TextInput
+                            aria-describedby="root_1__error root_1__description root_1__help"
+                            autoFocus={false}
+                            className="w-full flex-row rounded-md border border-input bg-transparent p-3 text-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+                            disabled={false}
+                            id="root_1"
+                            name="root_1"
+                            onChangeText={[Function]}
+                            placeholder=""
+                            readOnly={false}
+                            required={true}
+                            step="any"
+                            type="number"
+                            value=""
+                          />
+                        </View>
+                        <Text
+                          className="text-xs font-medium text-muted-foreground"
+                        >
+                          <View>
+                            <View
+                              className="text-sm text-muted-foreground"
+                              id="root_1__description"
+                            >
+                              <Text>
+                                a fancier item description
+                              </Text>
+                            </View>
+                          </View>
+                        </Text>
+                      </View>
+                    </View>
+                  </View>
+                  <View
+                    className="flex-row items-end justify-end p-0.5"
+                  />
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`with title and description from uiSchema array 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-array"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <View>
+        <View
+          className="m-0 flex-row p-0"
+        >
+          <View
+            className="m-0 w-full p-0"
+          >
+            <View
+              className="my-1 flex-col gap-0.5"
+              id="root__title"
+            >
+              <Text>
+                My Field
+              </Text>
+            </View>
+            <View>
+              <View
+                className="text-sm text-muted-foreground"
+                id="root__description"
+              >
+                <Text>
+                  a fancier description
+                </Text>
+              </View>
+            </View>
+            <View
+              className="m-0 mb-2 w-full p-0"
+            >
+              <View
+                className="mt-2 flex-row"
+              >
+                <View
+                  className="m-0 p-0"
+                >
+                  <Pressable
+                    className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 border border-input bg-background hover:bg-accent hover:text-accent-foreground w-fit flex-row gap-2"
+                    disabled={false}
+                    id="root__add"
+                    onPress={[Function]}
+                  >
+                    <PlusCircle
+                      size={16}
+                    />
+                    <Text>
+                      Add Item
+                    </Text>
+                  </Pressable>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`with title and description from uiSchema array icons 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-array"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <View>
+        <View
+          className="m-0 flex-row p-0"
+        >
+          <View
+            className="m-0 w-full p-0"
+          >
+            <View
+              className="my-1 flex-col gap-0.5"
+              id="root__title"
+            >
+              <Text>
+                My Field
+              </Text>
+            </View>
+            <View>
+              <View
+                className="text-sm text-muted-foreground"
+                id="root__description"
+              >
+                <Text>
+                  a fancier description
+                </Text>
+              </View>
+            </View>
+            <View
+              className="m-0 mb-2 w-full p-0"
+            >
+              <View>
+                <View
+                  className="mb-2 flex-row flex-wrap"
+                >
+                  <View
+                    className="shrink grow"
+                  >
+                    <View
+                      className="rjsf-field rjsf-field-string"
+                    >
+                      <View
+                        className="flex-col gap-3"
+                      >
+                        <Text
+                          className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                        >
+                          My Item
+                          *
+                        </Text>
+                        <View>
+                          <TextInput
+                            aria-describedby="root_0__error root_0__description root_0__help"
+                            autoFocus={false}
+                            className="w-full flex-row rounded-md border border-input bg-transparent p-3 text-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+                            disabled={false}
+                            id="root_0"
+                            name="root_0"
+                            onChangeText={[Function]}
+                            placeholder=""
+                            readOnly={false}
+                            required={true}
+                            type="text"
+                            value="a"
+                          />
+                        </View>
+                        <Text
+                          className="text-xs font-medium text-muted-foreground"
+                        >
+                          <View>
+                            <View
+                              className="text-sm text-muted-foreground"
+                              id="root_0__description"
+                            >
+                              <Text>
+                                a fancier item description
+                              </Text>
+                            </View>
+                          </View>
+                        </Text>
+                      </View>
+                    </View>
+                  </View>
+                  <View
+                    className="flex-row items-end justify-end p-0.5"
+                  >
+                    <View
+                      className="flex-row gap-2"
+                    >
+                      <Pressable
+                        className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border border-input bg-background hover:bg-accent hover:text-accent-foreground rjsf-array-item-move-up"
+                        disabled={true}
+                        id="root_0__moveUp"
+                        onPress={[Function]}
+                      >
+                        <ChevronUp
+                          size={16}
+                        />
+                      </Pressable>
+                      <Pressable
+                        className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border border-input bg-background hover:bg-accent hover:text-accent-foreground rjsf-array-item-move-down"
+                        disabled={false}
+                        id="root_0__moveDown"
+                        onPress={[Function]}
+                      >
+                        <ChevronDown
+                          size={16}
+                        />
+                      </Pressable>
+                      <Pressable
+                        className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border border-input bg-background hover:bg-accent hover:text-accent-foreground rjsf-array-item-copy"
+                        disabled={false}
+                        id="root_0__copy"
+                        onPress={[Function]}
+                      >
+                        <Copy
+                          size={16}
+                        />
+                      </Pressable>
+                      <Pressable
+                        className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border bg-background hover:bg-accent hover:text-accent-foreground border-destructive"
+                        disabled={false}
+                        id="root_0__remove"
+                        onPress={[Function]}
+                      >
+                        <Trash2
+                          size={16}
+                        />
+                      </Pressable>
+                    </View>
+                  </View>
+                </View>
+              </View>
+              <View>
+                <View
+                  className="mb-2 flex-row flex-wrap"
+                >
+                  <View
+                    className="shrink grow"
+                  >
+                    <View
+                      className="rjsf-field rjsf-field-string"
+                    >
+                      <View
+                        className="flex-col gap-3"
+                      >
+                        <Text
+                          className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                        >
+                          My Item
+                          *
+                        </Text>
+                        <View>
+                          <TextInput
+                            aria-describedby="root_1__error root_1__description root_1__help"
+                            autoFocus={false}
+                            className="w-full flex-row rounded-md border border-input bg-transparent p-3 text-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+                            disabled={false}
+                            id="root_1"
+                            name="root_1"
+                            onChangeText={[Function]}
+                            placeholder=""
+                            readOnly={false}
+                            required={true}
+                            type="text"
+                            value="b"
+                          />
+                        </View>
+                        <Text
+                          className="text-xs font-medium text-muted-foreground"
+                        >
+                          <View>
+                            <View
+                              className="text-sm text-muted-foreground"
+                              id="root_1__description"
+                            >
+                              <Text>
+                                a fancier item description
+                              </Text>
+                            </View>
+                          </View>
+                        </Text>
+                      </View>
+                    </View>
+                  </View>
+                  <View
+                    className="flex-row items-end justify-end p-0.5"
+                  >
+                    <View
+                      className="flex-row gap-2"
+                    >
+                      <Pressable
+                        className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border border-input bg-background hover:bg-accent hover:text-accent-foreground rjsf-array-item-move-up"
+                        disabled={false}
+                        id="root_1__moveUp"
+                        onPress={[Function]}
+                      >
+                        <ChevronUp
+                          size={16}
+                        />
+                      </Pressable>
+                      <Pressable
+                        className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border border-input bg-background hover:bg-accent hover:text-accent-foreground rjsf-array-item-move-down"
+                        disabled={true}
+                        id="root_1__moveDown"
+                        onPress={[Function]}
+                      >
+                        <ChevronDown
+                          size={16}
+                        />
+                      </Pressable>
+                      <Pressable
+                        className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border border-input bg-background hover:bg-accent hover:text-accent-foreground rjsf-array-item-copy"
+                        disabled={false}
+                        id="root_1__copy"
+                        onPress={[Function]}
+                      >
+                        <Copy
+                          size={16}
+                        />
+                      </Pressable>
+                      <Pressable
+                        className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border bg-background hover:bg-accent hover:text-accent-foreground border-destructive"
+                        disabled={false}
+                        id="root_1__remove"
+                        onPress={[Function]}
+                      >
+                        <Trash2
+                          size={16}
+                        />
+                      </Pressable>
+                    </View>
+                  </View>
+                </View>
+              </View>
+              <View
+                className="mt-2 flex-row"
+              >
+                <View
+                  className="m-0 p-0"
+                >
+                  <Pressable
+                    className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 border border-input bg-background hover:bg-accent hover:text-accent-foreground w-fit flex-row gap-2"
+                    disabled={false}
+                    id="root__add"
+                    onPress={[Function]}
+                  >
+                    <PlusCircle
+                      size={16}
+                    />
+                    <Text>
+                      Add Item
+                    </Text>
+                  </Pressable>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`with title and description from uiSchema checkboxes 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-array"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <Text
+        className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+      >
+        My Field
+      </Text>
+      <View
+        aria-describedby="root__error root__description root__help"
+        aria-disabled={false}
+        className="bg-transparent"
+      >
+        <Pressable
+          className="h-9 w-full flex-row items-center justify-between gap-2 whitespace-nowrap rounded-md border border-input bg-transparent px-3 py-2 text-sm placeholder:text-muted-foreground disabled:cursor-not-allowed disabled:opacity-50"
+          onPress={[Function]}
+        >
+          <Text
+            className="line-clamp-1 flex-1 text-muted-foreground"
+          >
+            Select...
+          </Text>
+          <ChevronDown
+            className="h-4 w-4 opacity-50"
+          />
+        </Pressable>
+        <BottomSheetModal
+          snapPoints={
+            [
+              "50%",
+            ]
+          }
+          style={
+            {
+              "$$css": true,
+              "border-input bg-popover": "border-input bg-popover",
+            }
+          }
+        >
+          <BottomSheetScrollView>
+            <View
+              className="flex-1 flex-col items-start justify-start gap-4 p-4 pb-10"
+            >
+              <Pressable
+                className="w-full cursor-pointer flex-row items-center justify-between gap-2 rounded-sm py-1.5"
+                onPress={[Function]}
+              >
+                <Text>
+                  a
+                </Text>
+                <Text
+                  className="h-4 w-4 flex-row items-center justify-center"
+                />
+              </Pressable>
+              <Pressable
+                className="w-full cursor-pointer flex-row items-center justify-between gap-2 rounded-sm py-1.5"
+                onPress={[Function]}
+              >
+                <Text>
+                  b
+                </Text>
+                <Text
+                  className="h-4 w-4 flex-row items-center justify-center"
+                />
+              </Pressable>
+              <Pressable
+                className="w-full cursor-pointer flex-row items-center justify-between gap-2 rounded-sm py-1.5"
+                onPress={[Function]}
+              >
+                <Text>
+                  c
+                </Text>
+                <Text
+                  className="h-4 w-4 flex-row items-center justify-center"
+                />
+              </Pressable>
+            </View>
+          </BottomSheetScrollView>
+        </BottomSheetModal>
+      </View>
+      <Text
+        className="text-xs font-medium text-muted-foreground"
+      >
+        <View>
+          <View
+            className="text-sm text-muted-foreground"
+            id="root__description"
+          >
+            <Text>
+              a fancier description
+            </Text>
+          </View>
+        </View>
+      </Text>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`with title and description from uiSchema fixed array 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-array"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <View>
+        <View
+          className="m-0 flex-row p-0"
+        >
+          <View
+            className="m-0 w-full p-0"
+          >
+            <View
+              className="my-1 flex-col gap-0.5"
+              id="root__title"
+            >
+              <Text>
+                My Field
+              </Text>
+            </View>
+            <View>
+              <View
+                className="text-sm text-muted-foreground"
+                id="root__description"
+              >
+                <Text>
+                  a fancier description
+                </Text>
+              </View>
+            </View>
+            <View
+              className="m-0 mb-2 w-full p-0"
+            >
+              <View>
+                <View
+                  className="mb-2 flex-row flex-wrap"
+                >
+                  <View
+                    className="shrink grow"
+                  >
+                    <View
+                      className="rjsf-field rjsf-field-string"
+                    >
+                      <View
+                        className="flex-col gap-3"
+                      >
+                        <Text
+                          className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                        >
+                          My Item
+                          *
+                        </Text>
+                        <View>
+                          <TextInput
+                            aria-describedby="root_0__error root_0__description root_0__help"
+                            autoFocus={false}
+                            className="w-full flex-row rounded-md border border-input bg-transparent p-3 text-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+                            disabled={false}
+                            id="root_0"
+                            name="root_0"
+                            onChangeText={[Function]}
+                            placeholder=""
+                            readOnly={false}
+                            required={true}
+                            type="text"
+                            value=""
+                          />
+                        </View>
+                        <Text
+                          className="text-xs font-medium text-muted-foreground"
+                        >
+                          <View>
+                            <View
+                              className="text-sm text-muted-foreground"
+                              id="root_0__description"
+                            >
+                              <Text>
+                                a fancier item description
+                              </Text>
+                            </View>
+                          </View>
+                        </Text>
+                      </View>
+                    </View>
+                  </View>
+                  <View
+                    className="flex-row items-end justify-end p-0.5"
+                  />
+                </View>
+              </View>
+              <View>
+                <View
+                  className="mb-2 flex-row flex-wrap"
+                >
+                  <View
+                    className="shrink grow"
+                  >
+                    <View
+                      className="rjsf-field rjsf-field-number"
+                    >
+                      <View
+                        className="flex-col gap-3"
+                      >
+                        <Text
+                          className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                        >
+                          My Item
+                          *
+                        </Text>
+                        <View>
+                          <TextInput
+                            aria-describedby="root_1__error root_1__description root_1__help"
+                            autoFocus={false}
+                            className="w-full flex-row rounded-md border border-input bg-transparent p-3 text-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+                            disabled={false}
+                            id="root_1"
+                            name="root_1"
+                            onChangeText={[Function]}
+                            placeholder=""
+                            readOnly={false}
+                            required={true}
+                            step="any"
+                            type="number"
+                            value=""
+                          />
+                        </View>
+                        <Text
+                          className="text-xs font-medium text-muted-foreground"
+                        >
+                          <View>
+                            <View
+                              className="text-sm text-muted-foreground"
+                              id="root_1__description"
+                            >
+                              <Text>
+                                a fancier item description
+                              </Text>
+                            </View>
+                          </View>
+                        </Text>
+                      </View>
+                    </View>
+                  </View>
+                  <View
+                    className="flex-row items-end justify-end p-0.5"
+                  />
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`with title and description with global label off array 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-array"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <View>
+        <View
+          className="m-0 flex-row p-0"
+        >
+          <View
+            className="m-0 w-full p-0"
+          >
+            <View
+              className="m-0 mb-2 w-full p-0"
+            >
+              <View
+                className="mt-2 flex-row"
+              >
+                <View
+                  className="m-0 p-0"
+                >
+                  <Pressable
+                    className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 border border-input bg-background hover:bg-accent hover:text-accent-foreground w-fit flex-row gap-2"
+                    disabled={false}
+                    id="root__add"
+                    onPress={[Function]}
+                  >
+                    <PlusCircle
+                      size={16}
+                    />
+                    <Text>
+                      Add Item
+                    </Text>
+                  </Pressable>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`with title and description with global label off array icons 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-array"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <View>
+        <View
+          className="m-0 flex-row p-0"
+        >
+          <View
+            className="m-0 w-full p-0"
+          >
+            <View
+              className="m-0 mb-2 w-full p-0"
+            >
+              <View>
+                <View
+                  className="mb-2 flex-row flex-wrap"
+                >
+                  <View
+                    className="shrink grow"
+                  >
+                    <View
+                      className="rjsf-field rjsf-field-string"
+                    >
+                      <View
+                        className="flex-col gap-3"
+                      >
+                        <View>
+                          <TextInput
+                            aria-describedby="root_0__error root_0__description root_0__help"
+                            autoFocus={false}
+                            className="w-full flex-row rounded-md border border-input bg-transparent p-3 text-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+                            disabled={false}
+                            id="root_0"
+                            name="root_0"
+                            onChangeText={[Function]}
+                            placeholder=""
+                            readOnly={false}
+                            required={true}
+                            type="text"
+                            value="a"
+                          />
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                  <View
+                    className="flex-row items-end justify-end p-0.5"
+                  >
+                    <View
+                      className="flex-row gap-2"
+                    >
+                      <Pressable
+                        className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border border-input bg-background hover:bg-accent hover:text-accent-foreground rjsf-array-item-move-up"
+                        disabled={true}
+                        id="root_0__moveUp"
+                        onPress={[Function]}
+                      >
+                        <ChevronUp
+                          size={16}
+                        />
+                      </Pressable>
+                      <Pressable
+                        className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border border-input bg-background hover:bg-accent hover:text-accent-foreground rjsf-array-item-move-down"
+                        disabled={false}
+                        id="root_0__moveDown"
+                        onPress={[Function]}
+                      >
+                        <ChevronDown
+                          size={16}
+                        />
+                      </Pressable>
+                      <Pressable
+                        className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border border-input bg-background hover:bg-accent hover:text-accent-foreground rjsf-array-item-copy"
+                        disabled={false}
+                        id="root_0__copy"
+                        onPress={[Function]}
+                      >
+                        <Copy
+                          size={16}
+                        />
+                      </Pressable>
+                      <Pressable
+                        className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border bg-background hover:bg-accent hover:text-accent-foreground border-destructive"
+                        disabled={false}
+                        id="root_0__remove"
+                        onPress={[Function]}
+                      >
+                        <Trash2
+                          size={16}
+                        />
+                      </Pressable>
+                    </View>
+                  </View>
+                </View>
+              </View>
+              <View>
+                <View
+                  className="mb-2 flex-row flex-wrap"
+                >
+                  <View
+                    className="shrink grow"
+                  >
+                    <View
+                      className="rjsf-field rjsf-field-string"
+                    >
+                      <View
+                        className="flex-col gap-3"
+                      >
+                        <View>
+                          <TextInput
+                            aria-describedby="root_1__error root_1__description root_1__help"
+                            autoFocus={false}
+                            className="w-full flex-row rounded-md border border-input bg-transparent p-3 text-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+                            disabled={false}
+                            id="root_1"
+                            name="root_1"
+                            onChangeText={[Function]}
+                            placeholder=""
+                            readOnly={false}
+                            required={true}
+                            type="text"
+                            value="b"
+                          />
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                  <View
+                    className="flex-row items-end justify-end p-0.5"
+                  >
+                    <View
+                      className="flex-row gap-2"
+                    >
+                      <Pressable
+                        className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border border-input bg-background hover:bg-accent hover:text-accent-foreground rjsf-array-item-move-up"
+                        disabled={false}
+                        id="root_1__moveUp"
+                        onPress={[Function]}
+                      >
+                        <ChevronUp
+                          size={16}
+                        />
+                      </Pressable>
+                      <Pressable
+                        className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border border-input bg-background hover:bg-accent hover:text-accent-foreground rjsf-array-item-move-down"
+                        disabled={true}
+                        id="root_1__moveDown"
+                        onPress={[Function]}
+                      >
+                        <ChevronDown
+                          size={16}
+                        />
+                      </Pressable>
+                      <Pressable
+                        className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border border-input bg-background hover:bg-accent hover:text-accent-foreground rjsf-array-item-copy"
+                        disabled={false}
+                        id="root_1__copy"
+                        onPress={[Function]}
+                      >
+                        <Copy
+                          size={16}
+                        />
+                      </Pressable>
+                      <Pressable
+                        className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border bg-background hover:bg-accent hover:text-accent-foreground border-destructive"
+                        disabled={false}
+                        id="root_1__remove"
+                        onPress={[Function]}
+                      >
+                        <Trash2
+                          size={16}
+                        />
+                      </Pressable>
+                    </View>
+                  </View>
+                </View>
+              </View>
+              <View
+                className="mt-2 flex-row"
+              >
+                <View
+                  className="m-0 p-0"
+                >
+                  <Pressable
+                    className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 border border-input bg-background hover:bg-accent hover:text-accent-foreground w-fit flex-row gap-2"
+                    disabled={false}
+                    id="root__add"
+                    onPress={[Function]}
+                  >
+                    <PlusCircle
+                      size={16}
+                    />
+                    <Text>
+                      Add Item
+                    </Text>
+                  </Pressable>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`with title and description with global label off checkboxes 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-array"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <Text
+        className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+      >
+        Test field
+      </Text>
+      <View
+        aria-describedby="root__error root__description root__help"
+        aria-disabled={false}
+        className="bg-transparent"
+      >
+        <Pressable
+          className="h-9 w-full flex-row items-center justify-between gap-2 whitespace-nowrap rounded-md border border-input bg-transparent px-3 py-2 text-sm placeholder:text-muted-foreground disabled:cursor-not-allowed disabled:opacity-50"
+          onPress={[Function]}
+        >
+          <Text
+            className="line-clamp-1 flex-1 text-muted-foreground"
+          >
+            Select...
+          </Text>
+          <ChevronDown
+            className="h-4 w-4 opacity-50"
+          />
+        </Pressable>
+        <BottomSheetModal
+          snapPoints={
+            [
+              "50%",
+            ]
+          }
+          style={
+            {
+              "$$css": true,
+              "border-input bg-popover": "border-input bg-popover",
+            }
+          }
+        >
+          <BottomSheetScrollView>
+            <View
+              className="flex-1 flex-col items-start justify-start gap-4 p-4 pb-10"
+            >
+              <Pressable
+                className="w-full cursor-pointer flex-row items-center justify-between gap-2 rounded-sm py-1.5"
+                onPress={[Function]}
+              >
+                <Text>
+                  a
+                </Text>
+                <Text
+                  className="h-4 w-4 flex-row items-center justify-center"
+                />
+              </Pressable>
+              <Pressable
+                className="w-full cursor-pointer flex-row items-center justify-between gap-2 rounded-sm py-1.5"
+                onPress={[Function]}
+              >
+                <Text>
+                  b
+                </Text>
+                <Text
+                  className="h-4 w-4 flex-row items-center justify-center"
+                />
+              </Pressable>
+              <Pressable
+                className="w-full cursor-pointer flex-row items-center justify-between gap-2 rounded-sm py-1.5"
+                onPress={[Function]}
+              >
+                <Text>
+                  c
+                </Text>
+                <Text
+                  className="h-4 w-4 flex-row items-center justify-center"
+                />
+              </Pressable>
+            </View>
+          </BottomSheetScrollView>
+        </BottomSheetModal>
+      </View>
+      <Text
+        className="text-xs font-medium text-muted-foreground"
+      >
+        <View>
+          <View
+            className="text-sm text-muted-foreground"
+            id="root__description"
+          >
+            <Text>
+              a test description
+            </Text>
+          </View>
+        </View>
+      </Text>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`with title and description with global label off fixed array 1`] = `
+<View
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <View
+    className="rjsf-field rjsf-field-array"
+  >
+    <View
+      className="flex-col gap-3"
+    >
+      <View>
+        <View
+          className="m-0 flex-row p-0"
+        >
+          <View
+            className="m-0 w-full p-0"
+          >
+            <View
+              className="m-0 mb-2 w-full p-0"
+            >
+              <View>
+                <View
+                  className="mb-2 flex-row flex-wrap"
+                >
+                  <View
+                    className="shrink grow"
+                  >
+                    <View
+                      className="rjsf-field rjsf-field-string"
+                    >
+                      <View
+                        className="flex-col gap-3"
+                      >
+                        <View>
+                          <TextInput
+                            aria-describedby="root_0__error root_0__description root_0__help"
+                            autoFocus={false}
+                            className="w-full flex-row rounded-md border border-input bg-transparent p-3 text-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+                            disabled={false}
+                            id="root_0"
+                            name="root_0"
+                            onChangeText={[Function]}
+                            placeholder=""
+                            readOnly={false}
+                            required={true}
+                            type="text"
+                            value=""
+                          />
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                  <View
+                    className="flex-row items-end justify-end p-0.5"
+                  />
+                </View>
+              </View>
+              <View>
+                <View
+                  className="mb-2 flex-row flex-wrap"
+                >
+                  <View
+                    className="shrink grow"
+                  >
+                    <View
+                      className="rjsf-field rjsf-field-number"
+                    >
+                      <View
+                        className="flex-col gap-3"
+                      >
+                        <View>
+                          <TextInput
+                            aria-describedby="root_1__error root_1__description root_1__help"
+                            autoFocus={false}
+                            className="w-full flex-row rounded-md border border-input bg-transparent p-3 text-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+                            disabled={false}
+                            id="root_1"
+                            name="root_1"
+                            onChangeText={[Function]}
+                            placeholder=""
+                            readOnly={false}
+                            required={true}
+                            step="any"
+                            type="number"
+                            value=""
+                          />
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                  <View
+                    className="flex-row items-end justify-end p-0.5"
+                  />
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View>
+    <Pressable
+      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      disabled={false}
+    >
+      <Text>
+        Submit
+      </Text>
+    </Pressable>
+  </View>
+</View>
+`;

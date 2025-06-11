@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`CheckboxesWidget inline 1`] = `
+<View
+  className="flex-row flex-wrap gap-4"
+>
+  <View
+    className="flex-row items-center gap-2"
+  >
+    <Pressable
+      accessibilityState={
+        {
+          "checked": false,
+          "disabled": true,
+        }
+      }
+      aria-checked={false}
+      aria-describedby="_id__error _id__description _id__help"
+      aria-disabled={true}
+      className="peer h-5 w-5 shrink-0 rounded-sm border border-primary focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground"
+      disabled={true}
+      id="_id-0"
+      onPress={[Function]}
+      role="checkbox"
+    />
+    <Pressable
+      className=""
+      hitSlop={6}
+    >
+      <View
+        className="text-sm font-medium peer-disabled:cursor-not-allowed peer-disabled:opacity-70 leading-tight"
+      >
+        <Text>
+          A
+        </Text>
+      </View>
+    </Pressable>
+  </View>
+</View>
+`;
+
+exports[`CheckboxesWidget simple 1`] = `
+<View
+  className="flex-col gap-3"
+>
+  <View
+    className="flex-row items-center gap-2"
+  >
+    <Pressable
+      accessibilityState={
+        {
+          "checked": false,
+          "disabled": true,
+        }
+      }
+      aria-checked={false}
+      aria-describedby="_id__error _id__description _id__help"
+      aria-disabled={true}
+      className="peer h-5 w-5 shrink-0 rounded-sm border border-primary focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground"
+      disabled={true}
+      id="_id-0"
+      onPress={[Function]}
+      role="checkbox"
+    />
+    <Pressable
+      className=""
+      hitSlop={6}
+    >
+      <View
+        className="text-sm font-medium peer-disabled:cursor-not-allowed peer-disabled:opacity-70 leading-tight"
+      >
+        <Text>
+          A
+        </Text>
+      </View>
+    </Pressable>
+  </View>
+</View>
+`;
