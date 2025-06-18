@@ -8,20 +8,19 @@ import { cx } from '../../lib/cx.tsx';
  * @see https://ui.shadcn.com/docs/components/badge
  */
 const badgeVariants = cva(
-  'inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold transition-colors',
+  'flex-row items-center rounded-md px-1 py-0.5 text-xs font-semibold transition-colors gap-1',
   {
     defaultVariants: {
       variant: 'default',
     },
     variants: {
       variant: {
-        default:
-          'border-transparent bg-primary text-primary-foreground hover:bg-primary/80',
+        default: 'bg-primary text-primary-foreground hover:bg-primary/80',
         destructive:
-          'border-transparent bg-destructive text-destructive-foreground hover:bg-destructive/80',
+          'bg-destructive text-destructive-foreground hover:bg-destructive/80',
         outline: 'text-foreground',
         secondary:
-          'border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80',
+          'bg-secondary text-secondary-foreground hover:bg-secondary/80',
       },
     },
   },

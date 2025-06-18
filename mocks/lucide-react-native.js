@@ -6,3 +6,4 @@ exports.ChevronUp = 'ChevronUp';
 exports.Copy = 'Copy';
 exports.PlusCircle = 'PlusCircle';
 exports.Trash2 = 'Trash2';
+exports.X = 'X';

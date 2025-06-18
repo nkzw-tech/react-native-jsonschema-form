@@ -76,7 +76,7 @@ exports[`object fields additionalProperties 1`] = `
                 </View>
               </View>
               <Pressable
-                className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border bg-background hover:bg-accent hover:text-accent-foreground border-destructive"
+                className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border bg-background hover:bg-accent hover:text-accent-foreground border-destructive"
                 disabled={false}
                 id="root_foo__remove"
                 onPress={[Function]}
@@ -92,7 +92,7 @@ exports[`object fields additionalProperties 1`] = `
           className="m-0 p-0"
         >
           <Pressable
-            className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 border border-input bg-background hover:bg-accent hover:text-accent-foreground w-fit flex-row gap-2"
+            className="items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 border border-input bg-background hover:bg-accent hover:text-accent-foreground w-fit flex-row gap-2"
             disabled={false}
             id="root__add"
             onPress={[Function]}
@@ -110,7 +110,7 @@ exports[`object fields additionalProperties 1`] = `
   </View>
   <View>
     <Pressable
-      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
     >
       <Text>
@@ -216,7 +216,7 @@ exports[`object fields object 1`] = `
   </View>
   <View>
     <Pressable
-      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
     >
       <Text>
@@ -303,7 +303,7 @@ exports[`object fields show add button and fields if additionalProperties is tru
                 </View>
               </View>
               <Pressable
-                className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border bg-background hover:bg-accent hover:text-accent-foreground border-destructive"
+                className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border bg-background hover:bg-accent hover:text-accent-foreground border-destructive"
                 disabled={false}
                 id="root_additionalProperty__remove"
                 onPress={[Function]}
@@ -319,7 +319,7 @@ exports[`object fields show add button and fields if additionalProperties is tru
           className="m-0 p-0"
         >
           <Pressable
-            className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 border border-input bg-background hover:bg-accent hover:text-accent-foreground w-fit flex-row gap-2"
+            className="items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 border border-input bg-background hover:bg-accent hover:text-accent-foreground w-fit flex-row gap-2"
             disabled={false}
             id="root__add"
             onPress={[Function]}
@@ -337,7 +337,7 @@ exports[`object fields show add button and fields if additionalProperties is tru
   </View>
   <View>
     <Pressable
-      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
     >
       <Text>
@@ -442,7 +442,7 @@ exports[`object fields with title and description additionalProperties 1`] = `
                 </View>
               </View>
               <Pressable
-                className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border bg-background hover:bg-accent hover:text-accent-foreground border-destructive"
+                className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border bg-background hover:bg-accent hover:text-accent-foreground border-destructive"
                 disabled={false}
                 id="root_foo__remove"
                 onPress={[Function]}
@@ -458,7 +458,7 @@ exports[`object fields with title and description additionalProperties 1`] = `
           className="m-0 p-0"
         >
           <Pressable
-            className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 border border-input bg-background hover:bg-accent hover:text-accent-foreground w-fit flex-row gap-2"
+            className="items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 border border-input bg-background hover:bg-accent hover:text-accent-foreground w-fit flex-row gap-2"
             disabled={false}
             id="root__add"
             onPress={[Function]}
@@ -476,7 +476,7 @@ exports[`object fields with title and description additionalProperties 1`] = `
   </View>
   <View>
     <Pressable
-      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
     >
       <Text>
@@ -581,7 +581,7 @@ exports[`object fields with title and description from both additionalProperties
                 </View>
               </View>
               <Pressable
-                className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border bg-background hover:bg-accent hover:text-accent-foreground border-destructive"
+                className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border bg-background hover:bg-accent hover:text-accent-foreground border-destructive"
                 disabled={false}
                 id="root_foo__remove"
                 onPress={[Function]}
@@ -597,7 +597,7 @@ exports[`object fields with title and description from both additionalProperties
           className="m-0 p-0"
         >
           <Pressable
-            className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 border border-input bg-background hover:bg-accent hover:text-accent-foreground w-fit flex-row gap-2"
+            className="items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 border border-input bg-background hover:bg-accent hover:text-accent-foreground w-fit flex-row gap-2"
             disabled={false}
             id="root__add"
             onPress={[Function]}
@@ -615,7 +615,7 @@ exports[`object fields with title and description from both additionalProperties
   </View>
   <View>
     <Pressable
-      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
     >
       <Text>
@@ -767,7 +767,7 @@ exports[`object fields with title and description from both object 1`] = `
   </View>
   <View>
     <Pressable
-      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
     >
       <Text>
@@ -872,7 +872,7 @@ exports[`object fields with title and description from uiSchema additionalProper
                 </View>
               </View>
               <Pressable
-                className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border bg-background hover:bg-accent hover:text-accent-foreground border-destructive"
+                className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border bg-background hover:bg-accent hover:text-accent-foreground border-destructive"
                 disabled={false}
                 id="root_foo__remove"
                 onPress={[Function]}
@@ -888,7 +888,7 @@ exports[`object fields with title and description from uiSchema additionalProper
           className="m-0 p-0"
         >
           <Pressable
-            className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 border border-input bg-background hover:bg-accent hover:text-accent-foreground w-fit flex-row gap-2"
+            className="items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 border border-input bg-background hover:bg-accent hover:text-accent-foreground w-fit flex-row gap-2"
             disabled={false}
             id="root__add"
             onPress={[Function]}
@@ -906,7 +906,7 @@ exports[`object fields with title and description from uiSchema additionalProper
   </View>
   <View>
     <Pressable
-      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
     >
       <Text>
@@ -1058,7 +1058,7 @@ exports[`object fields with title and description from uiSchema object 1`] = `
   </View>
   <View>
     <Pressable
-      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
     >
       <Text>
@@ -1163,7 +1163,7 @@ exports[`object fields with title and description from uiSchema show add button 
                 </View>
               </View>
               <Pressable
-                className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border bg-background hover:bg-accent hover:text-accent-foreground border-destructive"
+                className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border bg-background hover:bg-accent hover:text-accent-foreground border-destructive"
                 disabled={false}
                 id="root_additionalProperty__remove"
                 onPress={[Function]}
@@ -1179,7 +1179,7 @@ exports[`object fields with title and description from uiSchema show add button 
           className="m-0 p-0"
         >
           <Pressable
-            className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 border border-input bg-background hover:bg-accent hover:text-accent-foreground w-fit flex-row gap-2"
+            className="items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 border border-input bg-background hover:bg-accent hover:text-accent-foreground w-fit flex-row gap-2"
             disabled={false}
             id="root__add"
             onPress={[Function]}
@@ -1197,7 +1197,7 @@ exports[`object fields with title and description from uiSchema show add button 
   </View>
   <View>
     <Pressable
-      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
     >
       <Text>
@@ -1349,7 +1349,7 @@ exports[`object fields with title and description object 1`] = `
   </View>
   <View>
     <Pressable
-      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
     >
       <Text>
@@ -1454,7 +1454,7 @@ exports[`object fields with title and description show add button and fields if 
                 </View>
               </View>
               <Pressable
-                className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border bg-background hover:bg-accent hover:text-accent-foreground border-destructive"
+                className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border bg-background hover:bg-accent hover:text-accent-foreground border-destructive"
                 disabled={false}
                 id="root_additionalProperty__remove"
                 onPress={[Function]}
@@ -1470,7 +1470,7 @@ exports[`object fields with title and description show add button and fields if 
           className="m-0 p-0"
         >
           <Pressable
-            className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 border border-input bg-background hover:bg-accent hover:text-accent-foreground w-fit flex-row gap-2"
+            className="items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 border border-input bg-background hover:bg-accent hover:text-accent-foreground w-fit flex-row gap-2"
             disabled={false}
             id="root__add"
             onPress={[Function]}
@@ -1488,7 +1488,7 @@ exports[`object fields with title and description show add button and fields if 
   </View>
   <View>
     <Pressable
-      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
     >
       <Text>
@@ -1570,7 +1570,7 @@ exports[`object fields with title and description with global label off addition
                 </View>
               </View>
               <Pressable
-                className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border bg-background hover:bg-accent hover:text-accent-foreground border-destructive"
+                className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border bg-background hover:bg-accent hover:text-accent-foreground border-destructive"
                 disabled={false}
                 id="root_foo__remove"
                 onPress={[Function]}
@@ -1586,7 +1586,7 @@ exports[`object fields with title and description with global label off addition
           className="m-0 p-0"
         >
           <Pressable
-            className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 border border-input bg-background hover:bg-accent hover:text-accent-foreground w-fit flex-row gap-2"
+            className="items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 border border-input bg-background hover:bg-accent hover:text-accent-foreground w-fit flex-row gap-2"
             disabled={false}
             id="root__add"
             onPress={[Function]}
@@ -1604,7 +1604,7 @@ exports[`object fields with title and description with global label off addition
   </View>
   <View>
     <Pressable
-      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
     >
       <Text>
@@ -1700,7 +1700,7 @@ exports[`object fields with title and description with global label off object 1
   </View>
   <View>
     <Pressable
-      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
     >
       <Text>
@@ -1782,7 +1782,7 @@ exports[`object fields with title and description with global label off show add
                 </View>
               </View>
               <Pressable
-                className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border bg-background hover:bg-accent hover:text-accent-foreground border-destructive"
+                className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 w-9 border bg-background hover:bg-accent hover:text-accent-foreground border-destructive"
                 disabled={false}
                 id="root_additionalProperty__remove"
                 onPress={[Function]}
@@ -1798,7 +1798,7 @@ exports[`object fields with title and description with global label off show add
           className="m-0 p-0"
         >
           <Pressable
-            className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 border border-input bg-background hover:bg-accent hover:text-accent-foreground w-fit flex-row gap-2"
+            className="items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 border border-input bg-background hover:bg-accent hover:text-accent-foreground w-fit flex-row gap-2"
             disabled={false}
             id="root__add"
             onPress={[Function]}
@@ -1816,7 +1816,7 @@ exports[`object fields with title and description with global label off show add
   </View>
   <View>
     <Pressable
-      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
+      className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
     >
       <Text>

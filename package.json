@@ -1,6 +1,6 @@
 {
   "name": "@nkzw/react-native-jsonschema-form",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "react-jsonschema-form for React Native",
   "keywords": [
     "react-jsonschema-form",

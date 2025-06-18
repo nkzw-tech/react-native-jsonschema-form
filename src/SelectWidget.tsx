@@ -7,7 +7,7 @@ import {
   StrictRJSFSchema,
   WidgetProps,
 } from '@rjsf/utils';
-import { FancySelect } from './components/ui/fancy-select.tsx';
+import { SelectBottomSheet } from './components/ui/select-bottom-sheet.tsx';
 import { cx } from './lib/cx.tsx';
 import getTextComponent from './lib/getTextComponent.tsx';
 
@@ -41,16 +41,17 @@ export default function SelectWidget<
       disabled: Array.isArray(enumDisabled) && enumDisabled.includes(value),
       index,
       label,
-      value: multiple ? value : index.toString(),
+      value: index.toString(),
     }),
   );
 
   return (
-    <FancySelect
+    <SelectBottomSheet
       ariaDescribedby={ariaDescribedByIds<T>(id)}
       className={cx({ 'border-destructive': rawErrors.length > 0 })}
       disabled={disabled || readonly}
       items={items}
+      multiple={multiple}
       onValueChange={(selectedValue) => {
         onChange(
           enumOptionsValueForIndex<S>(
@@ -66,7 +67,7 @@ export default function SelectWidget<
         enumOptionsIndexForValue<S>(
           value ?? defaultValue,
           enumOptions,
-          false,
+          multiple,
         ) as unknown as string
       }
       textComponent={getTextComponent(registry.templates.TextTemplate)}
