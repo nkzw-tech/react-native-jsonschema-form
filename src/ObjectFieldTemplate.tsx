@@ -12,6 +12,7 @@ import {
 } from '@rjsf/utils';
 import { cx } from 'class-variance-authority';
 import { View } from 'react-native';
+import AddButton from './AddButton';
 import getTextComponent from './lib/getTextComponent';
 
 /** The `ObjectFieldTemplate` is the template to use to render all the inner properties of an object along with the
@@ -51,16 +52,19 @@ export default function ObjectFieldTemplate<
     F
   >('DescriptionFieldTemplate', registry, uiOptions);
   // Button templates are not overridden in the uiSchema
-  const {
-    ButtonTemplates: { AddButton },
-  } = registry.templates;
+  const AddButtonComponent =
+    registry.templates?.ButtonTemplates?.AddButton || AddButton;
   const Text = getTextComponent(registry.templates.TextTemplate);
+
+  // Safely get IDs, providing fallback if idSchema is undefined
+  const titleIdValue = idSchema ? titleId<T>(idSchema) : undefined;
+  const descriptionIdValue = idSchema ? descriptionId<T>(idSchema) : undefined;
 
   return (
     <>
-      {title && (
+      {title && titleIdValue && (
         <TitleFieldTemplate
-          id={titleId<T>(idSchema)}
+          id={titleIdValue}
           registry={registry}
           required={required}
           schema={schema}
@@ -68,10 +72,10 @@ export default function ObjectFieldTemplate<
           uiSchema={uiSchema}
         />
       )}
-      {description && (
+      {description && descriptionIdValue && (
         <DescriptionFieldTemplate
           description={description}
-          id={descriptionId<T>(idSchema)}
+          id={descriptionIdValue}
           registry={registry}
           schema={schema}
           uiSchema={uiSchema}
@@ -86,8 +90,8 @@ export default function ObjectFieldTemplate<
             <Text className="w-full">{element.content}</Text>
           </View>
         ))}
-        {canExpand(schema, uiSchema, formData) ? (
-          <AddButton
+        {canExpand(schema, uiSchema, formData) && idSchema ? (
+          <AddButtonComponent
             className="rjsf-object-property-expand"
             disabled={disabled || readonly}
             id={buttonId<T>(idSchema, 'add')}

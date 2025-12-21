@@ -9,6 +9,7 @@ import {
   StrictRJSFSchema,
 } from '@rjsf/utils';
 import { View } from 'react-native';
+import AddButton from './AddButton';
 
 /** The `ArrayFieldTemplate` component is the template used to render all items in an array.
  *
@@ -51,9 +52,8 @@ export default function ArrayFieldTemplate<
     F
   >('ArrayFieldTitleTemplate', registry, uiOptions);
   // Button templates are not overridden in the uiSchema
-  const {
-    ButtonTemplates: { AddButton },
-  } = registry.templates;
+  const AddButtonComponent =
+    registry.templates?.ButtonTemplates?.AddButton || AddButton;
   return (
     <View>
       <View className="m-0 flex-row p-0">
@@ -75,7 +75,7 @@ export default function ArrayFieldTemplate<
           />
           <View
             className="m-0 mb-2 w-full p-0"
-            key={`array-item-list-${idSchema.$id}`}
+            key={`array-item-list-${idSchema?.$id || 'array'}`}
           >
             {items &&
               items.map(
@@ -86,9 +86,9 @@ export default function ArrayFieldTemplate<
                   <ArrayFieldItemTemplate key={key} {...itemProps} />
                 ),
               )}
-            {canAdd && (
+            {canAdd && idSchema && (
               <View className="mt-2 flex-row">
-                <AddButton
+                <AddButtonComponent
                   className="rjsf-array-item-add"
                   disabled={disabled || readonly}
                   id={buttonId<T>(idSchema, 'add')}

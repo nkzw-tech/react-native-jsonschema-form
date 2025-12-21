@@ -9,6 +9,7 @@ import {
 } from '@rjsf/utils';
 import { View, type ViewStyle } from 'react-native';
 import { Input } from './components/ui/input.tsx';
+import { RemoveButton } from './IconButton.tsx';
 import getTextComponent from './lib/getTextComponent.tsx';
 
 /** The `WrapIfAdditional` component is used by the `FieldTemplate` to rename, or remove properties that are
@@ -36,7 +37,8 @@ export default function WrapIfAdditionalTemplate<
   Readonly<{ style: ViewStyle }>) {
   const { templates, translateString } = registry;
   // Button templates are not overridden in the uiSchema
-  const { RemoveButton } = templates.ButtonTemplates;
+  const RemoveButtonComponent =
+    templates?.ButtonTemplates?.RemoveButton || RemoveButton;
   const keyLabel = translateString(TranslatableString.KeyLabel, [label]);
   const additional = ADDITIONAL_PROPERTY_FLAG in schema;
 
@@ -72,7 +74,7 @@ export default function WrapIfAdditionalTemplate<
           </View>
           <View className="flex-grow pr-0.5">{children}</View>
         </View>
-        <RemoveButton
+        <RemoveButtonComponent
           className="rjsf-object-property-remove w-full"
           disabled={disabled || readonly}
           iconType="block"
