@@ -4,7 +4,6 @@ exports[`single fields checkbox field 1`] = `
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-boolean"
@@ -55,6 +54,7 @@ exports[`single fields checkbox field 1`] = `
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -68,7 +68,6 @@ exports[`single fields checkbox field with label 1`] = `
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-boolean"
@@ -121,6 +120,7 @@ exports[`single fields checkbox field with label 1`] = `
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -134,7 +134,6 @@ exports[`single fields checkbox field with label and description 1`] = `
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-boolean"
@@ -197,6 +196,7 @@ exports[`single fields checkbox field with label and description 1`] = `
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -210,7 +210,6 @@ exports[`single fields checkbox field with label and rich text description 1`] =
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-boolean"
@@ -273,6 +272,7 @@ exports[`single fields checkbox field with label and rich text description 1`] =
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -286,7 +286,6 @@ exports[`single fields checkboxes field 1`] = `
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-array"
@@ -441,6 +440,7 @@ exports[`single fields checkboxes field 1`] = `
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -454,7 +454,6 @@ exports[`single fields field with description 1`] = `
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-object"
@@ -523,6 +522,7 @@ exports[`single fields field with description 1`] = `
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -536,7 +536,6 @@ exports[`single fields field with description in uiSchema 1`] = `
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-object"
@@ -605,6 +604,7 @@ exports[`single fields field with description in uiSchema 1`] = `
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -618,7 +618,6 @@ exports[`single fields field with markdown description 1`] = `
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-object"
@@ -687,6 +686,7 @@ exports[`single fields field with markdown description 1`] = `
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -700,7 +700,6 @@ exports[`single fields field with markdown description in uiSchema 1`] = `
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-object"
@@ -769,6 +768,7 @@ exports[`single fields field with markdown description in uiSchema 1`] = `
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -782,7 +782,6 @@ exports[`single fields format color 1`] = `
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-string"
@@ -814,6 +813,7 @@ exports[`single fields format color 1`] = `
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -827,7 +827,6 @@ exports[`single fields format date 1`] = `
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-string"
@@ -859,6 +858,7 @@ exports[`single fields format date 1`] = `
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -872,7 +872,6 @@ exports[`single fields format datetime 1`] = `
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-string"
@@ -904,6 +903,7 @@ exports[`single fields format datetime 1`] = `
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -917,7 +917,6 @@ exports[`single fields format time 1`] = `
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-string"
@@ -949,6 +948,7 @@ exports[`single fields format time 1`] = `
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -962,7 +962,6 @@ exports[`single fields help and error display 1`] = `
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="relative w-full rounded-lg border px-4 py-3 text-sm [&>svg+div]:translate-y-[-3px] [&>svg]:absolute [&>svg]:start-4 [&>svg]:top-4 [&>svg~*]:ps-7 border-destructive/50 text-destructive dark:border-destructive [&>svg]:text-destructive mb-2"
@@ -1031,6 +1030,7 @@ exports[`single fields help and error display 1`] = `
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -1044,7 +1044,6 @@ exports[`single fields hidden field 1`] = `
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-object"
@@ -1080,6 +1079,7 @@ exports[`single fields hidden field 1`] = `
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -1093,7 +1093,6 @@ exports[`single fields hidden label 1`] = `
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-string"
@@ -1122,6 +1121,7 @@ exports[`single fields hidden label 1`] = `
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -1135,7 +1135,6 @@ exports[`single fields null field 1`] = `
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-null"
@@ -1152,6 +1151,7 @@ exports[`single fields null field 1`] = `
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -1165,7 +1165,6 @@ exports[`single fields number field 0 1`] = `
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-number"
@@ -1198,6 +1197,7 @@ exports[`single fields number field 0 1`] = `
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -1211,7 +1211,6 @@ exports[`single fields number field 1`] = `
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-number"
@@ -1244,6 +1243,7 @@ exports[`single fields number field 1`] = `
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -1257,7 +1257,6 @@ exports[`single fields password field 1`] = `
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-string"
@@ -1289,6 +1288,7 @@ exports[`single fields password field 1`] = `
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -1302,7 +1302,6 @@ exports[`single fields radio field 1`] = `
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-boolean"
@@ -1391,6 +1390,7 @@ exports[`single fields radio field 1`] = `
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -1404,7 +1404,6 @@ exports[`single fields schema examples 1`] = `
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-string"
@@ -1437,6 +1436,7 @@ exports[`single fields schema examples 1`] = `
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -1450,7 +1450,6 @@ exports[`single fields select field 1`] = `
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-string"
@@ -1532,6 +1531,7 @@ exports[`single fields select field 1`] = `
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -1545,7 +1545,6 @@ exports[`single fields select field multiple choice 1`] = `
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-array"
@@ -1653,6 +1652,7 @@ exports[`single fields select field multiple choice 1`] = `
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -1666,7 +1666,6 @@ exports[`single fields select field multiple choice enumDisabled 1`] = `
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-array"
@@ -1774,6 +1773,7 @@ exports[`single fields select field multiple choice enumDisabled 1`] = `
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -1787,7 +1787,6 @@ exports[`single fields select field multiple choice enumDisabled using checkboxe
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-array"
@@ -1939,6 +1938,7 @@ exports[`single fields select field multiple choice enumDisabled using checkboxe
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -1952,7 +1952,6 @@ exports[`single fields select field multiple choice formData 1`] = `
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-array"
@@ -2103,6 +2102,7 @@ exports[`single fields select field multiple choice formData 1`] = `
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -2116,7 +2116,6 @@ exports[`single fields select field multiple choice with labels 1`] = `
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-array"
@@ -2212,6 +2211,7 @@ exports[`single fields select field multiple choice with labels 1`] = `
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -2225,7 +2225,6 @@ exports[`single fields select field single choice enumDisabled 1`] = `
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-string"
@@ -2307,6 +2306,7 @@ exports[`single fields select field single choice enumDisabled 1`] = `
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -2320,7 +2320,6 @@ exports[`single fields select field single choice enumDisabled using radio widge
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-string"
@@ -2408,6 +2407,7 @@ exports[`single fields select field single choice enumDisabled using radio widge
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -2421,7 +2421,6 @@ exports[`single fields select field single choice form disabled using radio widg
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-string"
@@ -2510,6 +2509,7 @@ exports[`single fields select field single choice form disabled using radio widg
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={true}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -2523,7 +2523,6 @@ exports[`single fields select field single choice formData 1`] = `
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-string"
@@ -2615,6 +2614,7 @@ exports[`single fields select field single choice formData 1`] = `
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -2628,7 +2628,6 @@ exports[`single fields select field single choice uiSchema disabled using radio 
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-string"
@@ -2717,6 +2716,7 @@ exports[`single fields select field single choice uiSchema disabled using radio 
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -2730,7 +2730,6 @@ exports[`single fields slider field 1`] = `
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-integer"
@@ -2769,6 +2768,7 @@ exports[`single fields slider field 1`] = `
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -2782,7 +2782,6 @@ exports[`single fields string field format data-url 1`] = `
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-string"
@@ -2816,6 +2815,7 @@ exports[`single fields string field format data-url 1`] = `
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -2829,7 +2829,6 @@ exports[`single fields string field format email 1`] = `
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-string"
@@ -2861,6 +2860,7 @@ exports[`single fields string field format email 1`] = `
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -2874,7 +2874,6 @@ exports[`single fields string field format uri 1`] = `
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-string"
@@ -2906,6 +2905,7 @@ exports[`single fields string field format uri 1`] = `
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -2919,7 +2919,6 @@ exports[`single fields string field regular 1`] = `
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-string"
@@ -2951,6 +2950,7 @@ exports[`single fields string field regular 1`] = `
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -2964,7 +2964,6 @@ exports[`single fields string field with placeholder 1`] = `
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-string"
@@ -2996,6 +2995,7 @@ exports[`single fields string field with placeholder 1`] = `
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -3009,7 +3009,6 @@ exports[`single fields textarea field 1`] = `
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-string"
@@ -3041,6 +3040,7 @@ exports[`single fields textarea field 1`] = `
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -3054,7 +3054,6 @@ exports[`single fields title field 1`] = `
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-object"
@@ -3117,6 +3116,7 @@ exports[`single fields title field 1`] = `
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -3130,7 +3130,6 @@ exports[`single fields unsupported field 1`] = `
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-undefined"
@@ -3155,6 +3154,7 @@ exports[`single fields unsupported field 1`] = `
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -3168,7 +3168,6 @@ exports[`single fields up/down field 1`] = `
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-number"
@@ -3200,6 +3199,7 @@ exports[`single fields up/down field 1`] = `
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -3214,7 +3214,6 @@ exports[`single fields using custom tagName 1`] = `
   as="div"
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-string"
@@ -3246,6 +3245,7 @@ exports[`single fields using custom tagName 1`] = `
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit

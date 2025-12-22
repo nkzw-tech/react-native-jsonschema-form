@@ -4,7 +4,6 @@ exports[`Complex grid renders person and address and employment in a complex gri
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-object"
@@ -2239,6 +2238,7 @@ exports[`Complex grid renders person and address and employment in a complex gri
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -2252,7 +2252,6 @@ exports[`Complex grid renders person and address and employment in a complex gri
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-object"
@@ -4520,6 +4519,7 @@ exports[`Complex grid renders person and address and employment in a complex gri
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -4533,7 +4533,6 @@ exports[`Complex grid renders person and address and employment in a complex gri
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-object"
@@ -5969,6 +5968,7 @@ exports[`Complex grid renders person and address and employment in a complex gri
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -5982,7 +5982,6 @@ exports[`Complex grid renders person and address and employment in a complex gri
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-object"
@@ -8217,6 +8216,7 @@ exports[`Complex grid renders person and address and employment in a complex gri
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -8230,7 +8230,6 @@ exports[`Three even column grid renders person and address in three columns, no 
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-object"
@@ -9439,6 +9438,7 @@ exports[`Three even column grid renders person and address in three columns, no 
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -9452,7 +9452,6 @@ exports[`Two even column grid renders person and address in two columns, no empl
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-object"
@@ -10661,6 +10660,7 @@ exports[`Two even column grid renders person and address in two columns, no empl
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit

@@ -87,8 +87,5 @@
   },
   "engines": {
     "node": ">=20"
-  },
-  "main": "src/index.ts",
-  "react-native": "src/index.ts",
-  "source": "src/index.ts"
+  }
 }

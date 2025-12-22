@@ -1,34 +1,35 @@
 import {
   FormProps as OriginalFormProps,
   withTheme as originalWithTheme,
-} from "@rjsf/core";
-import { FormContextType, RJSFSchema, StrictRJSFSchema } from "@rjsf/utils";
-import { ComponentType, forwardRef } from "react";
-import { View, ViewProps } from "react-native";
-import { ReactNativeFormContext } from "./FormContext.tsx";
-import { TemplatesType } from "./Templates.tsx";
-import { generateTheme, ThemeProps } from "./Theme.tsx";
+} from '@rjsf/core';
+import { FormContextType, RJSFSchema, StrictRJSFSchema } from '@rjsf/utils';
+import { ComponentType, forwardRef } from 'react';
+import { View, ViewProps } from 'react-native';
+import { ReactNativeFormContext } from './FormContext.tsx';
+import { TemplatesType } from './Templates.tsx';
+import { generateTheme, ThemeProps } from './Theme.tsx';
 
 type FormProps<
   T = any,
   S extends StrictRJSFSchema = RJSFSchema,
   F extends FormContextType = any,
-> = Omit<OriginalFormProps<T, S, F>, "templates"> & {
-  templates?: Partial<Omit<TemplatesType<T, S, F>, "ButtonTemplates">> & {
-    ButtonTemplates?: Partial<TemplatesType<T, S, F>["ButtonTemplates"]>;
+> = Omit<OriginalFormProps<T, S, F>, 'templates'> & {
+  templates?: Partial<Omit<TemplatesType<T, S, F>, 'ButtonTemplates'>> & {
+    ButtonTemplates?: Partial<TemplatesType<T, S, F>['ButtonTemplates']>;
   };
 };
 
 const ReactNativeFormWrapper = forwardRef<
   View,
   ViewProps & { onSubmit: (e: any) => void }
->(({ children, onSubmit, ...props }, ref) => {
+  // eslint-disable-next-line no-extra-parens
+>(function ReactNativeFormWrapper({ children, onSubmit, ...props }, ref) {
   return (
     <ReactNativeFormContext.Provider
       value={{
         submit: () => {
           if (onSubmit) {
-            onSubmit({ preventDefault: () => {}, persist: () => {} });
+            onSubmit({ persist: () => {}, preventDefault: () => {} });
           }
         },
       }}

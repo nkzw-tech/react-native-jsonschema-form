@@ -4,12 +4,12 @@ import {
   RJSFSchema,
   StrictRJSFSchema,
   SubmitButtonProps,
-} from "@rjsf/utils";
-import { useContext } from "react";
-import { View } from "react-native";
-import { Button } from "./components/ui/button.tsx";
-import { ReactNativeFormContext } from "./FormContext.tsx";
-import getTextComponent from "./lib/getTextComponent.tsx";
+} from '@rjsf/utils';
+import { useContext } from 'react';
+import { View } from 'react-native';
+import { Button } from './components/ui/button.tsx';
+import { ReactNativeFormContext } from './FormContext.tsx';
+import getTextComponent from './lib/getTextComponent.tsx';
 
 /** The `SubmitButton` renders a button that represent the `Submit` action on a form
  */
@@ -23,7 +23,7 @@ export default function SubmitButton<
     props: submitButtonProps,
     submitText,
   } = getSubmitButtonOptions<T, S, F>(props.uiSchema);
-  
+
   const formContext = useContext(ReactNativeFormContext);
 
   if (norender) {
@@ -34,8 +34,8 @@ export default function SubmitButton<
 
   return (
     <View>
-      <Button 
-        {...submitButtonProps} 
+      <Button
+        {...submitButtonProps}
         className="my-2"
         onPress={() => formContext?.submit()}
       >

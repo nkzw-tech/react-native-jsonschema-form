@@ -4,7 +4,6 @@ exports[`object fields additionalProperties 1`] = `
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-object"
@@ -112,6 +111,7 @@ exports[`object fields additionalProperties 1`] = `
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -125,7 +125,6 @@ exports[`object fields object 1`] = `
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-object"
@@ -218,6 +217,7 @@ exports[`object fields object 1`] = `
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -231,7 +231,6 @@ exports[`object fields show add button and fields if additionalProperties is tru
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-object"
@@ -339,6 +338,7 @@ exports[`object fields show add button and fields if additionalProperties is tru
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -352,7 +352,6 @@ exports[`object fields with title and description additionalProperties 1`] = `
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-object"
@@ -478,6 +477,7 @@ exports[`object fields with title and description additionalProperties 1`] = `
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -491,7 +491,6 @@ exports[`object fields with title and description from both additionalProperties
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-object"
@@ -617,6 +616,7 @@ exports[`object fields with title and description from both additionalProperties
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -630,7 +630,6 @@ exports[`object fields with title and description from both object 1`] = `
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-object"
@@ -769,6 +768,7 @@ exports[`object fields with title and description from both object 1`] = `
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -782,7 +782,6 @@ exports[`object fields with title and description from uiSchema additionalProper
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-object"
@@ -908,6 +907,7 @@ exports[`object fields with title and description from uiSchema additionalProper
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -921,7 +921,6 @@ exports[`object fields with title and description from uiSchema object 1`] = `
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-object"
@@ -1060,6 +1059,7 @@ exports[`object fields with title and description from uiSchema object 1`] = `
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -1073,7 +1073,6 @@ exports[`object fields with title and description from uiSchema show add button 
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-object"
@@ -1199,6 +1198,7 @@ exports[`object fields with title and description from uiSchema show add button 
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -1212,7 +1212,6 @@ exports[`object fields with title and description object 1`] = `
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-object"
@@ -1351,6 +1350,7 @@ exports[`object fields with title and description object 1`] = `
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -1364,7 +1364,6 @@ exports[`object fields with title and description show add button and fields if 
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-object"
@@ -1490,6 +1489,7 @@ exports[`object fields with title and description show add button and fields if 
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -1503,7 +1503,6 @@ exports[`object fields with title and description with global label off addition
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-object"
@@ -1606,6 +1605,7 @@ exports[`object fields with title and description with global label off addition
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -1619,7 +1619,6 @@ exports[`object fields with title and description with global label off object 1
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-object"
@@ -1702,6 +1701,7 @@ exports[`object fields with title and description with global label off object 1
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
@@ -1715,7 +1715,6 @@ exports[`object fields with title and description with global label off show add
 <View
   className="rjsf"
   noValidate={false}
-  onSubmit={[Function]}
 >
   <View
     className="rjsf-field rjsf-field-object"
@@ -1818,6 +1817,7 @@ exports[`object fields with title and description with global label off show add
     <Pressable
       className="flex-row items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 my-2"
       disabled={false}
+      onPress={[Function]}
     >
       <Text>
         Submit
